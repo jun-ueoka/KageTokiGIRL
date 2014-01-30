@@ -1,0 +1,6 @@
+
+/**** ƒNƒ‰ƒXƒƒ‚ ****/
+
+C3D_OBJECT_CAMERA*
+C3D_OBJECT_GROUP*
+CSKIN_MESH*

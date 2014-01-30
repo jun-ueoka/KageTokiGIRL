@@ -1,0 +1,1574 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="game">
+      <UniqueIdentifier>{2aac42b4-3ca4-485f-a0d5-2dbede90fd9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\application">
+      <UniqueIdentifier>{41e92d97-da9b-45cf-a7ae-30c79d067f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene">
+      <UniqueIdentifier>{a14a47aa-c737-4efd-93bb-c31991fecff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\02_chapter1[謎の集団]">
+      <UniqueIdentifier>{9a37cfb8-cc4e-47f4-b3c3-7be3a4857d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\02_chapter1[謎の集団]\02_stage1[公園]">
+      <UniqueIdentifier>{ce6ac6f5-b600-4c5c-81e4-fdcb078effb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\02_chapter1[謎の集団]\03_movie2[シャドウクリミナル、現る]">
+      <UniqueIdentifier>{9c19ba2f-f78d-40f1-8a3d-371016969d50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\02_chapter1[謎の集団]\04_stage2[公園出口]">
+      <UniqueIdentifier>{e36063ec-ce06-4fc4-b01e-c009965a4092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\02_chapter1[謎の集団]\05_movie3[シャドウクリミナルアジト]">
+      <UniqueIdentifier>{bdecb971-9880-43e9-a2d3-ac6de916d61b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\02_chapter1[謎の集団]\06_stage3[村]">
+      <UniqueIdentifier>{709b4b3f-d59b-4eed-b237-50cdcae49252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\02_chapter1[謎の集団]\07_boss1[エクス]">
+      <UniqueIdentifier>{bf91b6a0-4a87-4a75-ab32-72c47b202320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\02_chapter1[謎の集団]\01_movie1[デート]">
+      <UniqueIdentifier>{7eb473cc-28be-49f8-ad97-39077d7518e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\03_chapter2[シャドウクリミナルを追え!]">
+      <UniqueIdentifier>{af09190e-b7af-4b92-92a3-879f0d02da8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\03_chapter2[シャドウクリミナルを追え!]\01_movie4[敵を追って…]">
+      <UniqueIdentifier>{bf04e6b0-ad42-4ec7-aa60-5869754c9b2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\03_chapter2[シャドウクリミナルを追え!]\02_stage4[荒野]">
+      <UniqueIdentifier>{220ddd85-7ace-4c42-895c-3ea333a0182c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\03_chapter2[シャドウクリミナルを追え!]\03_movie5[山あり…谷あり…]">
+      <UniqueIdentifier>{cf65b679-3ab3-4464-be06-e2ac26a4c287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\03_chapter2[シャドウクリミナルを追え!]\04_stage5[山]">
+      <UniqueIdentifier>{194bc91f-a136-4296-8901-ddfb91266a63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\03_chapter2[シャドウクリミナルを追え!]\05_movie6[アジト%3f]">
+      <UniqueIdentifier>{70502c95-0214-482e-a1ec-c9767b2870bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\03_chapter2[シャドウクリミナルを追え!]\07_boss2[カゲヤマ]">
+      <UniqueIdentifier>{d143cace-ae07-41af-8ef9-c65eecf63ce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\03_chapter2[シャドウクリミナルを追え!]\06_stage6[洞窟]">
+      <UniqueIdentifier>{f679e1ad-5e07-41e5-b04b-b0079150c087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\04_chapter3[アジト急激]">
+      <UniqueIdentifier>{e1bd52fb-79d2-48bf-b5d8-92e8353c5711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\04_chapter3[アジト急激]\01_movie7[見つけた手段]">
+      <UniqueIdentifier>{55fd4475-edad-4a3f-a665-6c0a02fd44be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\04_chapter3[アジト急激]\02_stage7[上空]">
+      <UniqueIdentifier>{0e44a998-930f-4fc1-85ba-5946e8fbc13b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\04_chapter3[アジト急激]\04_movie8[本拠地発見]">
+      <UniqueIdentifier>{9bbb5136-2bff-4804-b8bb-4a28dcd03538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\04_chapter3[アジト急激]\05_stage8[城下町]">
+      <UniqueIdentifier>{9e3721d5-3acd-4445-be89-4cbdfb232f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\04_chapter3[アジト急激]\06_movie9[門は叩かず、壊してけ!]">
+      <UniqueIdentifier>{e39bb9c2-e520-4e93-8381-b2160dc438ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\04_chapter3[アジト急激]\07_stage9[城内部]">
+      <UniqueIdentifier>{422ee733-e02c-4d51-a224-97011fe59d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\04_chapter3[アジト急激]\03_boss3[フェザー]">
+      <UniqueIdentifier>{0af19095-cb45-423f-97da-26dc6d6412f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\05_last_chapter[クライマックス]">
+      <UniqueIdentifier>{a53d37b9-9e0c-4672-a2f7-6445b8e20b67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\05_last_chapter[クライマックス]\01_movie10[追い詰めたぞ!]">
+      <UniqueIdentifier>{00c22d2b-2cbc-4111-acdb-e8ef9999825e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\05_last_chapter[クライマックス]\02_stage10[巨大地下通路]">
+      <UniqueIdentifier>{2b3ee1bb-6f58-4106-9472-1b84e63e6337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\05_last_chapter[クライマックス]\03_boss4[ティマ]">
+      <UniqueIdentifier>{3b21f9ae-72ea-465c-b146-a274e5e396a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\05_last_chapter[クライマックス]\04_movie11[最終決戦!]">
+      <UniqueIdentifier>{04476392-7312-4888-a205-fbeb0b65b2d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\05_last_chapter[クライマックス]\05_last_boss[クライム]">
+      <UniqueIdentifier>{062431c2-32a6-4cb3-aa50-367d3c15baa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\05_last_chapter[クライマックス]\06_ending_movie[平和の訪れ]">
+      <UniqueIdentifier>{1ad184c0-5518-45c0-96ec-4851bfa38a7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\piece">
+      <UniqueIdentifier>{d5197ce4-4993-447f-a85a-3f7625facba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\piece\adventure_game">
+      <UniqueIdentifier>{31530021-4b43-4ef4-a33c-1f21369fe34c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\piece\adventure_game\back_ground">
+      <UniqueIdentifier>{4a8563c5-4a1f-4ed6-89a4-1d31b084a1cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\piece\adventure_game\back_ground\back_spirit_world">
+      <UniqueIdentifier>{7bb3081d-4359-4f90-8353-f7df4b8e14ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\piece\adventure_game\divide_cpp">
+      <UniqueIdentifier>{233447cf-2856-4d74-ab7b-dd3d6f1883f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\piece\movie_base">
+      <UniqueIdentifier>{d778aef0-6501-45eb-ae0f-51d6f1d92622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\01_opening_flow">
+      <UniqueIdentifier>{172b5130-fc63-441f-b0df-e042ee5fc5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\01_opening_flow\01_logo">
+      <UniqueIdentifier>{82d493d1-73cd-4a44-84e3-c03dee47e830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\01_opening_flow\02_demo">
+      <UniqueIdentifier>{6b429ff4-5f4f-4b50-8523-7b7d82e9c4a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\01_opening_flow\03_title">
+      <UniqueIdentifier>{5e8fbaca-8e57-4c20-b3ec-7817661d07dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\06_ending_flow">
+      <UniqueIdentifier>{47003cea-deab-4739-99ea-267c23876999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\06_ending_flow\01_ending">
+      <UniqueIdentifier>{90c72d8e-ab0e-431c-97f6-b1678ba6d832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\06_ending_flow\02_game_over">
+      <UniqueIdentifier>{d66df60a-38c3-4db8-9af2-34e14e96014c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\common">
+      <UniqueIdentifier>{1de5a2b5-8923-4d05-a42e-061550bd05ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\game_library">
+      <UniqueIdentifier>{3aea5836-c1ee-49b0-b32e-bba831253ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\game_library\map">
+      <UniqueIdentifier>{14eee859-14f9-4e9f-95e8-471bd8cdff73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\game_library\shadow_object">
+      <UniqueIdentifier>{8b84c18c-3770-42ed-9a7d-039750018df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\game_library\comment">
+      <UniqueIdentifier>{f579db5c-9112-4cba-af69-aa11f547fa48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\character">
+      <UniqueIdentifier>{b2f2115f-b7ee-4137-b576-d46b9267c31c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\character\advent_character">
+      <UniqueIdentifier>{3d10a904-ff64-402d-9691-84fc55822b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\character\advent_character\enemy">
+      <UniqueIdentifier>{06373d86-b2d3-4b5c-9ba7-4a8c73f5036b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\character\advent_character\enemy\weak">
+      <UniqueIdentifier>{85354848-0f9f-4283-b3bc-cd8d6131f30b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\character\advent_character\enemy\weak\enemy01_shadoll「シャドール」">
+      <UniqueIdentifier>{cc2d2615-16c3-48af-9d3a-869e5804d7f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\character\advent_character\enemy\weak\enemy03_shadog「シャドッグ」">
+      <UniqueIdentifier>{8f0ac4d6-f766-4722-931f-595ea303f2d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\character\advent_character\enemy\weak\enemy02_shadoll_sword「シャドールソード」">
+      <UniqueIdentifier>{3dc02c1b-3c60-4b38-b731-9ed2cc2f5b55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\character\advent_character\enemy\weak\enemy04_shadoll_archery「シャドールアーチェリー」">
+      <UniqueIdentifier>{316ebfb8-0a06-4ea9-943e-2f87d696bd1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\character\advent_character\enemy\boss">
+      <UniqueIdentifier>{c0c29ce5-9f97-4e69-88af-dab48c6b629e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\character\advent_character\enemy\boss\boss05_clime「クライム」">
+      <UniqueIdentifier>{52eab3cf-480b-4030-8d4c-7f9146af3963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\character\advent_character\enemy\boss\boss01_exe「エクス」">
+      <UniqueIdentifier>{33810636-de4c-4f9b-a956-71316d2fbb8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\character\advent_character\enemy\boss\boss02_yamakage「ヤマカゲ」">
+      <UniqueIdentifier>{70ddf6d9-0396-4ae5-a916-40a93f2107a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\character\advent_character\enemy\boss\boss03_feather「フェザー」">
+      <UniqueIdentifier>{a7ee4677-c4fd-40b5-8fe2-8107b5b87733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\character\advent_character\enemy\boss\boss04_tima「ティマ」">
+      <UniqueIdentifier>{01a4bf70-bc4f-4732-bd4f-733d348aad6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\character\advent_character\main">
+      <UniqueIdentifier>{db96ccf4-74a4-45ea-8e83-25395d522bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\character\advent_character\main\player">
+      <UniqueIdentifier>{e3f57c75-1a34-4e24-aded-7099cd8916a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\character\advent_character\main\kageo">
+      <UniqueIdentifier>{f8607332-c91b-41dc-b644-f59b784624f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\character\advent_character\main\kageo\kageo_class">
+      <UniqueIdentifier>{25a97712-26e1-4e06-8c5e-786e7adf6711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\character\advent_character\main\kageo\kageo_ball">
+      <UniqueIdentifier>{3001aade-c2f8-4ee5-b473-2e4d6db61b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\character\advent_character\main\kagemi">
+      <UniqueIdentifier>{3de9c062-39e0-442c-8d08-116edd8b6313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\character\advent_character\main\kagemi\kagemi_class">
+      <UniqueIdentifier>{57f2ac31-f821-4eef-9710-b4b877e945af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\character\advent_character\main\kagemi\kagemi_ball">
+      <UniqueIdentifier>{478b7704-65c2-43af-9cd4-85221f736880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility">
+      <UniqueIdentifier>{691993c7-1ea4-4e45-953d-c9bc942aaa93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note">
+      <UniqueIdentifier>{0c13738b-358a-4226-963b-cca6160f8630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\map">
+      <UniqueIdentifier>{22db3889-4d4e-45c3-9bec-c6d6a995a379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\map\movie">
+      <UniqueIdentifier>{50b2a165-5f1f-48dd-9ee5-68e93bfee5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\map\demo">
+      <UniqueIdentifier>{b5821475-ea47-4b3f-89ff-c1074ae6b050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\map\boss">
+      <UniqueIdentifier>{34869b2f-3cba-422b-959a-0b887cc194b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\map\stage">
+      <UniqueIdentifier>{cdc1aa6e-5801-4032-881c-7eb4cd174578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\event">
+      <UniqueIdentifier>{a37ff23d-f346-4897-b77a-8cd9e317fa3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\event\game_event">
+      <UniqueIdentifier>{48b5a008-583d-4214-ba90-fa7ae07ba5ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\event\game_event\switch">
+      <UniqueIdentifier>{0c30e75e-cc3b-4ac4-9af3-26bbc9d12005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\event\game_event\goal">
+      <UniqueIdentifier>{6080e765-0a86-42b8-b020-803e5903d478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\event\game_event\boss">
+      <UniqueIdentifier>{b47120d2-ffc9-45db-92bb-a1d7482b7de9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\event\game_event\boss\01_vs_exe">
+      <UniqueIdentifier>{19677ad1-ed85-45c8-b6c1-0191455aab6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\event\game_event\boss\02_vs_yamakage">
+      <UniqueIdentifier>{213624f5-6a44-40e4-a25b-b8cd27cf89cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\event\game_event\boss\03_vs_feather">
+      <UniqueIdentifier>{1ad94d80-048b-40e2-a0d8-762cd485d02f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\event\game_event\stage">
+      <UniqueIdentifier>{a8f67c0c-f0db-4d5c-a941-32efd9ccd3b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\event\game_event\stage\stage1">
+      <UniqueIdentifier>{c136f3f3-b3cc-45e9-b510-76e696430657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\event\game_event\stage\stage9">
+      <UniqueIdentifier>{8c3a0307-b9dc-4822-862a-8b574a906cab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\event\game_event\stage\stage10">
+      <UniqueIdentifier>{9f491158-82ce-4e6b-9eb9-7aa150831935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\event\game_event\stage\stage2">
+      <UniqueIdentifier>{31f884b3-0636-4f74-916a-27bc14159fc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\event\game_event\stage\stage3">
+      <UniqueIdentifier>{343b5065-26a3-4655-a0db-a46f6580ce8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\event\game_event\stage\stage4">
+      <UniqueIdentifier>{ca4effd9-392c-4678-b082-d760adc61675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\event\game_event\stage\stage5">
+      <UniqueIdentifier>{a0a04990-262c-4f07-9883-596c963d21d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\event\game_event\stage\stage6">
+      <UniqueIdentifier>{0cea1dbd-537d-4042-bab3-617733be8bde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\event\game_event\stage\stage7">
+      <UniqueIdentifier>{cc42bb73-d83c-40cf-bee9-50a19d105900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\event\game_event\stage\stage8">
+      <UniqueIdentifier>{284164ab-0c12-4fb7-a5f4-e323c3bf5277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\event\demo_event">
+      <UniqueIdentifier>{e1e30f95-8d3c-4903-a266-979dcee31354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\effect">
+      <UniqueIdentifier>{25256da0-7c02-43fc-be15-15d438e5aa1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\effect\A～G">
+      <UniqueIdentifier>{716f915d-96be-4c66-af51-75b71a88d8a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\effect\H～N">
+      <UniqueIdentifier>{2bc92ab9-3a9d-43b0-9944-637a4aaa3e00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\effect\O～U">
+      <UniqueIdentifier>{40b5ea39-9e7c-45f7-a03d-1ec4e9a2bc26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\effect\V～Z">
+      <UniqueIdentifier>{bec179e5-9d31-4b82-b594-f10ec3af1a71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\effect\カゲオの声">
+      <UniqueIdentifier>{3b2d3724-8d31-494e-9bb4-4541430ac33b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\effect\カゲミの声">
+      <UniqueIdentifier>{79e43c92-bada-45a6-abe7-29cf84405295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\stage">
+      <UniqueIdentifier>{47200347-329e-4609-99ff-b276c2e13e16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\shadowObject">
+      <UniqueIdentifier>{583808fc-c251-4b83-be4a-edc506c4ec66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\shader">
+      <UniqueIdentifier>{1a187601-2e3f-431f-af5f-125cb8211617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\movie_base">
+      <UniqueIdentifier>{c1883746-328d-4794-9d88-27938c44df42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="制作note\enemy">
+      <UniqueIdentifier>{03110d7b-cf6f-4aa9-a998-09a1311c0426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx">
+      <UniqueIdentifier>{5043df8c-9eca-401b-bb1e-ca55c8cd8143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\graphic_device">
+      <UniqueIdentifier>{cf299bd9-91de-45a5-863e-6c4daf6faeab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\spline">
+      <UniqueIdentifier>{51eeea18-4f2c-4161-ac20-6346d3c553ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\sound">
+      <UniqueIdentifier>{7ca95f39-6f79-42c5-9756-6869c70ecd87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\sound\ogg_vorbis">
+      <UniqueIdentifier>{10cfd18b-0981-4cfc-9a9e-3bfdf803dc2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\sound\sound">
+      <UniqueIdentifier>{0a840193-8adb-4aaf-9987-05d2b0712f24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\sound\sound_ogg_vorbis">
+      <UniqueIdentifier>{a179c914-bbfc-43f8-a69a-f13e3d1b4354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\object">
+      <UniqueIdentifier>{2a8695ad-943b-427d-aca3-ae79ec8db1a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\object\3d_object">
+      <UniqueIdentifier>{344b25b6-3779-483f-a984-1936735c9138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\object\3d_object\objects">
+      <UniqueIdentifier>{4d9af1e7-d1be-448a-b477-70f0a1b488bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\object\3d_object\objects\camera">
+      <UniqueIdentifier>{d412a022-a75b-4ac5-9fb1-72d2f821cab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\object\3d_object\objects\group">
+      <UniqueIdentifier>{ed3fb316-93e3-4bce-a025-c0bda2401d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\object\3d_object\objects\mesh">
+      <UniqueIdentifier>{cb8cda56-54f6-47b3-9085-c0da67b79100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\object\3d_object\objects\skin_mesh">
+      <UniqueIdentifier>{1f5471ef-3007-4304-b586-9337a494d43f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\object\3d_object\objects\texture">
+      <UniqueIdentifier>{eb37a8e1-4b9c-4c90-b3f5-8f6023cd9916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\object\3d_object\objects\font">
+      <UniqueIdentifier>{3a98c25e-4e25-4b54-b6ff-776743997a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\object\3d_object\objects\effect">
+      <UniqueIdentifier>{21438512-ea51-43a4-9c8d-6eabb28d86b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\object\3d_object\objects\effect\effect_object">
+      <UniqueIdentifier>{b6ab511a-e5c5-44c9-a7d6-0bd8cad977b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\object\3d_object\objects\effect\effect_center">
+      <UniqueIdentifier>{9bf8619e-8176-4dc1-973c-40daca7572d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\object\2d_object">
+      <UniqueIdentifier>{9603c9bd-57df-420d-b2b9-cb39be69ce8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\object\base">
+      <UniqueIdentifier>{16ed16e0-e380-4b53-a281-22df365c16e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\object\base\mesh">
+      <UniqueIdentifier>{708df546-6140-4ed5-a5a9-be0d2abd5069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\object\base\skin_mesh">
+      <UniqueIdentifier>{3128f50c-590d-43c3-a790-ae1f439ef777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\object\base\texture">
+      <UniqueIdentifier>{5b2aae78-4d2f-4fc5-a302-2a3a0ce46be9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\object\base\font">
+      <UniqueIdentifier>{3e4616c6-45fe-4f9a-8850-41d73da66ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\object\base\effect">
+      <UniqueIdentifier>{85048061-7979-4236-ba4f-83e2cd2acf82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\input">
+      <UniqueIdentifier>{af7ee70c-78a0-4cd2-88d8-440c7f1837af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\direction">
+      <UniqueIdentifier>{5999c8e9-f4fb-427f-915c-935cc6198bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\shader">
+      <UniqueIdentifier>{67ba5cdf-e723-4a0d-a638-7cfca4cf01e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\shader\z_texture">
+      <UniqueIdentifier>{7c23c2c3-9dac-41b3-bed9-0e79dec38062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\shader\depth_buf">
+      <UniqueIdentifier>{ba56fb07-df0c-4c06-9751-d8c900bca1b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx\save_resource">
+      <UniqueIdentifier>{788aaf43-e2a9-414b-a3b7-8ea47d5f57f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx_drive">
+      <UniqueIdentifier>{e66f94b0-e6dd-46ea-8fd2-fc8c7cc2cdaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx_drive\3d_map">
+      <UniqueIdentifier>{30a925c1-d895-4951-85ed-10400c297f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library_directx_drive\movie_camera">
+      <UniqueIdentifier>{8ff12cf2-30c7-41c6-abea-ed0272ecbf12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース">
+      <UniqueIdentifier>{c98974d1-ee1c-4f93-9229-0242b23bfa34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window">
+      <UniqueIdentifier>{9e51aea5-bf07-4fe0-b556-19058ee597ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\win_main">
+      <UniqueIdentifier>{0fcfe9d6-eb22-490a-b917-4f29e99c8d2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\window_manager">
+      <UniqueIdentifier>{9d8eda54-c4bd-4837-a918-fcb1a377da81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Class_GameApplication.cpp">
+      <Filter>game\application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_Scene.cpp">
+      <Filter>game\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneStage1.cpp">
+      <Filter>game\scene\02_chapter1[謎の集団]\02_stage1[公園]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneMovie2.cpp">
+      <Filter>game\scene\02_chapter1[謎の集団]\03_movie2[シャドウクリミナル、現る]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneStage2.cpp">
+      <Filter>game\scene\02_chapter1[謎の集団]\04_stage2[公園出口]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneMovie3.cpp">
+      <Filter>game\scene\02_chapter1[謎の集団]\05_movie3[シャドウクリミナルアジト]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneStage3.cpp">
+      <Filter>game\scene\02_chapter1[謎の集団]\06_stage3[村]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneBoss1.cpp">
+      <Filter>game\scene\02_chapter1[謎の集団]\07_boss1[エクス]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneMovie1.cpp">
+      <Filter>game\scene\02_chapter1[謎の集団]\01_movie1[デート]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneMovie4.cpp">
+      <Filter>game\scene\03_chapter2[シャドウクリミナルを追え!]\01_movie4[敵を追って…]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneStage4.cpp">
+      <Filter>game\scene\03_chapter2[シャドウクリミナルを追え!]\02_stage4[荒野]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneMovie5.cpp">
+      <Filter>game\scene\03_chapter2[シャドウクリミナルを追え!]\03_movie5[山あり…谷あり…]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneStage5.cpp">
+      <Filter>game\scene\03_chapter2[シャドウクリミナルを追え!]\04_stage5[山]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneMovie6.cpp">
+      <Filter>game\scene\03_chapter2[シャドウクリミナルを追え!]\05_movie6[アジト%3f]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneBoss2.cpp">
+      <Filter>game\scene\03_chapter2[シャドウクリミナルを追え!]\07_boss2[カゲヤマ]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneStage6.cpp">
+      <Filter>game\scene\03_chapter2[シャドウクリミナルを追え!]\06_stage6[洞窟]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneMovie7.cpp">
+      <Filter>game\scene\04_chapter3[アジト急激]\01_movie7[見つけた手段]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneStage7.cpp">
+      <Filter>game\scene\04_chapter3[アジト急激]\02_stage7[上空]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneMovie8.cpp">
+      <Filter>game\scene\04_chapter3[アジト急激]\04_movie8[本拠地発見]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneStage8.cpp">
+      <Filter>game\scene\04_chapter3[アジト急激]\05_stage8[城下町]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneMovie9.cpp">
+      <Filter>game\scene\04_chapter3[アジト急激]\06_movie9[門は叩かず、壊してけ!]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneStage9.cpp">
+      <Filter>game\scene\04_chapter3[アジト急激]\07_stage9[城内部]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneBoss3.cpp">
+      <Filter>game\scene\04_chapter3[アジト急激]\03_boss3[フェザー]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneMovie10.cpp">
+      <Filter>game\scene\05_last_chapter[クライマックス]\01_movie10[追い詰めたぞ!]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneStage10.cpp">
+      <Filter>game\scene\05_last_chapter[クライマックス]\02_stage10[巨大地下通路]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneBoss4.cpp">
+      <Filter>game\scene\05_last_chapter[クライマックス]\03_boss4[ティマ]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneMovie11.cpp">
+      <Filter>game\scene\05_last_chapter[クライマックス]\04_movie11[最終決戦!]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneBoss5.cpp">
+      <Filter>game\scene\05_last_chapter[クライマックス]\05_last_boss[クライム]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneMovie12.cpp">
+      <Filter>game\scene\05_last_chapter[クライマックス]\06_ending_movie[平和の訪れ]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneAdventureGame.cpp">
+      <Filter>game\scene\piece\adventure_game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneAdventureGameData.cpp">
+      <Filter>game\scene\piece\adventure_game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_BackSky.cpp">
+      <Filter>game\scene\piece\adventure_game\back_ground\back_spirit_world</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneAdventureGameClear.cpp">
+      <Filter>game\scene\piece\adventure_game\divide_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneAdventureGameContinue.cpp">
+      <Filter>game\scene\piece\adventure_game\divide_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneAdventureGameEvent.cpp">
+      <Filter>game\scene\piece\adventure_game\divide_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneAdventureGamePlay.cpp">
+      <Filter>game\scene\piece\adventure_game\divide_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneAdventureGameQuit.cpp">
+      <Filter>game\scene\piece\adventure_game\divide_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneAdventureGameReset.cpp">
+      <Filter>game\scene\piece\adventure_game\divide_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneAdventureGameStageChange.cpp">
+      <Filter>game\scene\piece\adventure_game\divide_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneAdventureGameStageOut.cpp">
+      <Filter>game\scene\piece\adventure_game\divide_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneMovieBase.cpp">
+      <Filter>game\scene\piece\movie_base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneLogo.cpp">
+      <Filter>game\scene\01_opening_flow\01_logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneDemo.cpp">
+      <Filter>game\scene\01_opening_flow\02_demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneTitle.cpp">
+      <Filter>game\scene\01_opening_flow\03_title</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneEnding.cpp">
+      <Filter>game\scene\06_ending_flow\01_ending</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SceneGameOver.cpp">
+      <Filter>game\scene\06_ending_flow\02_game_over</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\GameCommon.cpp">
+      <Filter>game\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_GameMap.cpp">
+      <Filter>game\game_library\map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_ShadowObject.cpp">
+      <Filter>game\game_library\shadow_object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_Comment.cpp">
+      <Filter>game\game_library\comment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_KageTokiAdventCharacter.cpp">
+      <Filter>game\character\advent_character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_AdventEnemyManager.cpp">
+      <Filter>game\character\advent_character\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_EnemyBall.cpp">
+      <Filter>game\character\advent_character\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_KageTokiAdventEnemy.cpp">
+      <Filter>game\character\advent_character\enemy\weak</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_EnemyShadoll.cpp">
+      <Filter>game\character\advent_character\enemy\weak\enemy01_shadoll「シャドール」</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_EnemyShadog.cpp">
+      <Filter>game\character\advent_character\enemy\weak\enemy03_shadog「シャドッグ」</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_EnemyShadollSword.cpp">
+      <Filter>game\character\advent_character\enemy\weak\enemy02_shadoll_sword「シャドールソード」</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_EnemyShadollArchery.cpp">
+      <Filter>game\character\advent_character\enemy\weak\enemy04_shadoll_archery「シャドールアーチェリー」</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_KageTokiAdventBoss.cpp">
+      <Filter>game\character\advent_character\enemy\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_BossClime.cpp">
+      <Filter>game\character\advent_character\enemy\boss\boss05_clime「クライム」</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_BossExe.cpp">
+      <Filter>game\character\advent_character\enemy\boss\boss01_exe「エクス」</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_BossYamakage.cpp">
+      <Filter>game\character\advent_character\enemy\boss\boss02_yamakage「ヤマカゲ」</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_YamakageWeapon.cpp">
+      <Filter>game\character\advent_character\enemy\boss\boss02_yamakage「ヤマカゲ」</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_BossFeather.cpp">
+      <Filter>game\character\advent_character\enemy\boss\boss03_feather「フェザー」</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_BossTima.cpp">
+      <Filter>game\character\advent_character\enemy\boss\boss04_tima「ティマ」</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_AdventPlayer.cpp">
+      <Filter>game\character\advent_character\main\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_AdventKageo.cpp">
+      <Filter>game\character\advent_character\main\kageo\kageo_class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_KageoBall.cpp">
+      <Filter>game\character\advent_character\main\kageo\kageo_ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_AdventKagemi.cpp">
+      <Filter>game\character\advent_character\main\kagemi\kagemi_class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_KagemiBall.cpp">
+      <Filter>game\character\advent_character\main\kagemi\kagemi_ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\UtilityFunction.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Version.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\DirectX.cpp">
+      <Filter>library_directx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Class_GraphicDevice.cpp">
+      <Filter>library_directx\graphic_device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_Spline.cpp">
+      <Filter>library_directx\spline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_OggVorbis.cpp">
+      <Filter>library_directx\sound\ogg_vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_Sound.cpp">
+      <Filter>library_directx\sound\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_Sound_OggVorbis.cpp">
+      <Filter>library_directx\sound\sound_ogg_vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Class_3DObject.cpp">
+      <Filter>library_directx\object\3d_object\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Class_3DObjectCamera.cpp">
+      <Filter>library_directx\object\3d_object\objects\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Class_3DObjectGroup.cpp">
+      <Filter>library_directx\object\3d_object\objects\group</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Class_Mesh.cpp">
+      <Filter>library_directx\object\3d_object\objects\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Class_SkinMesh.cpp">
+      <Filter>library_directx\object\3d_object\objects\skin_mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_Texture.cpp">
+      <Filter>library_directx\object\3d_object\objects\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_3DEffect.cpp">
+      <Filter>library_directx\object\3d_object\objects\effect\effect_object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_3DEffectCenter.cpp">
+      <Filter>library_directx\object\3d_object\objects\effect\effect_center</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_MeshBase.cpp">
+      <Filter>library_directx\object\base\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SkinMeshBase.cpp">
+      <Filter>library_directx\object\base\skin_mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_TextureBase.cpp">
+      <Filter>library_directx\object\base\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_FontBase.cpp">
+      <Filter>library_directx\object\base\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_EffectBase.cpp">
+      <Filter>library_directx\object\base\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_DirectInput.cpp">
+      <Filter>library_directx\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\MySystem.cpp">
+      <Filter>library_directx\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_Direction.cpp">
+      <Filter>library_directx\direction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_ZTextureShader.cpp">
+      <Filter>library_directx\shader\z_texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_DepthBufShader.cpp">
+      <Filter>library_directx\shader\depth_buf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_SaveResource.cpp">
+      <Filter>library_directx\save_resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_3DMap.cpp">
+      <Filter>library_directx_drive\3d_map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_MovieCamera.cpp">
+      <Filter>library_directx_drive\movie_camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\WinMain.cpp">
+      <Filter>window\win_main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Class_WindowManager.cpp">
+      <Filter>window\window_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Precompiler.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Class_GameApplication.h">
+      <Filter>game\application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Class_Scene.h">
+      <Filter>game\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneStage1.h">
+      <Filter>game\scene\02_chapter1[謎の集団]\02_stage1[公園]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneMovie2.h">
+      <Filter>game\scene\02_chapter1[謎の集団]\03_movie2[シャドウクリミナル、現る]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneStage2.h">
+      <Filter>game\scene\02_chapter1[謎の集団]\04_stage2[公園出口]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneMovie3.h">
+      <Filter>game\scene\02_chapter1[謎の集団]\05_movie3[シャドウクリミナルアジト]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneStage3.h">
+      <Filter>game\scene\02_chapter1[謎の集団]\06_stage3[村]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneBoss1.h">
+      <Filter>game\scene\02_chapter1[謎の集団]\07_boss1[エクス]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneMovie1.h">
+      <Filter>game\scene\02_chapter1[謎の集団]\01_movie1[デート]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneMovie4.h">
+      <Filter>game\scene\03_chapter2[シャドウクリミナルを追え!]\01_movie4[敵を追って…]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneStage4.h">
+      <Filter>game\scene\03_chapter2[シャドウクリミナルを追え!]\02_stage4[荒野]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneMovie5.h">
+      <Filter>game\scene\03_chapter2[シャドウクリミナルを追え!]\03_movie5[山あり…谷あり…]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneStage5.h">
+      <Filter>game\scene\03_chapter2[シャドウクリミナルを追え!]\04_stage5[山]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneMovie6.h">
+      <Filter>game\scene\03_chapter2[シャドウクリミナルを追え!]\05_movie6[アジト%3f]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneBoss2.h">
+      <Filter>game\scene\03_chapter2[シャドウクリミナルを追え!]\07_boss2[カゲヤマ]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneStage6.h">
+      <Filter>game\scene\03_chapter2[シャドウクリミナルを追え!]\06_stage6[洞窟]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneMovie7.h">
+      <Filter>game\scene\04_chapter3[アジト急激]\01_movie7[見つけた手段]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneStage7.h">
+      <Filter>game\scene\04_chapter3[アジト急激]\02_stage7[上空]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneMovie8.h">
+      <Filter>game\scene\04_chapter3[アジト急激]\04_movie8[本拠地発見]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneStage8.h">
+      <Filter>game\scene\04_chapter3[アジト急激]\05_stage8[城下町]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneMovie9.h">
+      <Filter>game\scene\04_chapter3[アジト急激]\06_movie9[門は叩かず、壊してけ!]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneStage9.h">
+      <Filter>game\scene\04_chapter3[アジト急激]\07_stage9[城内部]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneBoss3.h">
+      <Filter>game\scene\04_chapter3[アジト急激]\03_boss3[フェザー]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneMovie10.h">
+      <Filter>game\scene\05_last_chapter[クライマックス]\01_movie10[追い詰めたぞ!]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneStage10.h">
+      <Filter>game\scene\05_last_chapter[クライマックス]\02_stage10[巨大地下通路]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneBoss4.h">
+      <Filter>game\scene\05_last_chapter[クライマックス]\03_boss4[ティマ]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneMovie11.h">
+      <Filter>game\scene\05_last_chapter[クライマックス]\04_movie11[最終決戦!]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneBoss5.h">
+      <Filter>game\scene\05_last_chapter[クライマックス]\05_last_boss[クライム]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneMovie12.h">
+      <Filter>game\scene\05_last_chapter[クライマックス]\06_ending_movie[平和の訪れ]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneAdventureGame.h">
+      <Filter>game\scene\piece\adventure_game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneAdventureGameData.h">
+      <Filter>game\scene\piece\adventure_game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_Back.h">
+      <Filter>game\scene\piece\adventure_game\back_ground</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_BackSky.h">
+      <Filter>game\scene\piece\adventure_game\back_ground\back_spirit_world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneMovieBase.h">
+      <Filter>game\scene\piece\movie_base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneLogo.h">
+      <Filter>game\scene\01_opening_flow\01_logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneDemo.h">
+      <Filter>game\scene\01_opening_flow\02_demo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneTitle.h">
+      <Filter>game\scene\01_opening_flow\03_title</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneEnding.h">
+      <Filter>game\scene\06_ending_flow\01_ending</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SceneGameOver.h">
+      <Filter>game\scene\06_ending_flow\02_game_over</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\GameCommon.h">
+      <Filter>game\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_GameMap.h">
+      <Filter>game\game_library\map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_ShadowObject.h">
+      <Filter>game\game_library\shadow_object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_Comment.h">
+      <Filter>game\game_library\comment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_KageTokiAdventCharacter.h">
+      <Filter>game\character\advent_character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_AdventEnemyManager.h">
+      <Filter>game\character\advent_character\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_EnemyBall.h">
+      <Filter>game\character\advent_character\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_KageTokiAdventEnemy.h">
+      <Filter>game\character\advent_character\enemy\weak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_EnemyShadoll.h">
+      <Filter>game\character\advent_character\enemy\weak\enemy01_shadoll「シャドール」</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_EnemyShadog.h">
+      <Filter>game\character\advent_character\enemy\weak\enemy03_shadog「シャドッグ」</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_EnemyShadollSword.h">
+      <Filter>game\character\advent_character\enemy\weak\enemy02_shadoll_sword「シャドールソード」</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_EnemyShadollArchery.h">
+      <Filter>game\character\advent_character\enemy\weak\enemy04_shadoll_archery「シャドールアーチェリー」</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_KageTokiAdventBoss.h">
+      <Filter>game\character\advent_character\enemy\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_BossClime.h">
+      <Filter>game\character\advent_character\enemy\boss\boss05_clime「クライム」</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_BossExe.h">
+      <Filter>game\character\advent_character\enemy\boss\boss01_exe「エクス」</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_BossYamakage.h">
+      <Filter>game\character\advent_character\enemy\boss\boss02_yamakage「ヤマカゲ」</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_YamakageWeapon.h">
+      <Filter>game\character\advent_character\enemy\boss\boss02_yamakage「ヤマカゲ」</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_BossFeather.h">
+      <Filter>game\character\advent_character\enemy\boss\boss03_feather「フェザー」</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_BossTima.h">
+      <Filter>game\character\advent_character\enemy\boss\boss04_tima「ティマ」</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_AdventPlayer.h">
+      <Filter>game\character\advent_character\main\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_AdventKageo.h">
+      <Filter>game\character\advent_character\main\kageo\kageo_class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_KageoBall.h">
+      <Filter>game\character\advent_character\main\kageo\kageo_ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_AdventKagemi.h">
+      <Filter>game\character\advent_character\main\kagemi\kagemi_class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_KagemiBall.h">
+      <Filter>game\character\advent_character\main\kagemi\kagemi_ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\UtilityFunction.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Version.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\DirectX.h">
+      <Filter>library_directx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Class_GraphicDevice.h">
+      <Filter>library_directx\graphic_device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_Spline.h">
+      <Filter>library_directx\spline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Sound.h">
+      <Filter>library_directx\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_OggVorbis.h">
+      <Filter>library_directx\sound\ogg_vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_Sound.h">
+      <Filter>library_directx\sound\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_Sound_OggVorbis.h">
+      <Filter>library_directx\sound\sound_ogg_vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Class_3DObject.h">
+      <Filter>library_directx\object\3d_object\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Class_3DObjectCamera.h">
+      <Filter>library_directx\object\3d_object\objects\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Class_3DObjectGroup.h">
+      <Filter>library_directx\object\3d_object\objects\group</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Class_Mesh.h">
+      <Filter>library_directx\object\3d_object\objects\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Class_SkinMesh.h">
+      <Filter>library_directx\object\3d_object\objects\skin_mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_Texture.h">
+      <Filter>library_directx\object\3d_object\objects\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_3DEffect.h">
+      <Filter>library_directx\object\3d_object\objects\effect\effect_object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_3DEffectCenter.h">
+      <Filter>library_directx\object\3d_object\objects\effect\effect_center</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_MeshBase.h">
+      <Filter>library_directx\object\base\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SkinMeshBase.h">
+      <Filter>library_directx\object\base\skin_mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_TextureBase.h">
+      <Filter>library_directx\object\base\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_FontBase.h">
+      <Filter>library_directx\object\base\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_EffectBase.h">
+      <Filter>library_directx\object\base\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_DirectInput.h">
+      <Filter>library_directx\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\MySystem.h">
+      <Filter>library_directx\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_Direction.h">
+      <Filter>library_directx\direction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_ZTextureShader.h">
+      <Filter>library_directx\shader\z_texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_DepthBufShader.h">
+      <Filter>library_directx\shader\depth_buf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_SaveResource.h">
+      <Filter>library_directx\save_resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_3DMap.h">
+      <Filter>library_directx_drive\3d_map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Class_MovieCamera.h">
+      <Filter>library_directx_drive\movie_camera</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>リソース</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Class_WindowManager.h">
+      <Filter>window\window_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Precompiler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\source\制作note\class.txt">
+      <Filter>制作note</Filter>
+    </Text>
+    <Text Include="..\Source\制作note\event.txt">
+      <Filter>制作note</Filter>
+    </Text>
+    <Text Include="..\Source\制作note\header.txt">
+      <Filter>制作note</Filter>
+    </Text>
+    <Text Include="..\source\制作note\namespase.txt">
+      <Filter>制作note</Filter>
+    </Text>
+    <Text Include="..\Source\制作note\最適化について（最適化オプションについて）.txt">
+      <Filter>制作note</Filter>
+    </Text>
+    <Text Include="..\Resources\Data\Event\Eventの書き方.txt">
+      <Filter>制作note\event</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\Data\Map\Map201.dat">
+      <Filter>制作note\map\movie</Filter>
+    </None>
+    <None Include="..\Resources\Data\Map\Map202.dat">
+      <Filter>制作note\map\movie</Filter>
+    </None>
+    <None Include="..\Resources\Data\Map\Map203.dat">
+      <Filter>制作note\map\movie</Filter>
+    </None>
+    <None Include="..\Resources\Data\Map\Map204.dat">
+      <Filter>制作note\map\movie</Filter>
+    </None>
+    <None Include="..\Resources\Data\Map\Map10001.dat">
+      <Filter>制作note\map\demo</Filter>
+    </None>
+    <None Include="..\Resources\Data\Map\Map110.dat">
+      <Filter>制作note\map\boss</Filter>
+    </None>
+    <None Include="..\Resources\Data\Map\Map120.dat">
+      <Filter>制作note\map\boss</Filter>
+    </None>
+    <None Include="..\Resources\Data\Map\Map130.dat">
+      <Filter>制作note\map\boss</Filter>
+    </None>
+    <None Include="..\Resources\Data\Map\Map140.dat">
+      <Filter>制作note\map\boss</Filter>
+    </None>
+    <None Include="..\Resources\Data\Map\Map150.dat">
+      <Filter>制作note\map\boss</Filter>
+    </None>
+    <None Include="..\Resources\Data\Map\Map10.dat">
+      <Filter>制作note\map\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Map\Map100.dat">
+      <Filter>制作note\map\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Map\Map20.dat">
+      <Filter>制作note\map\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Map\Map30.dat">
+      <Filter>制作note\map\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Map\Map40.dat">
+      <Filter>制作note\map\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Map\Map50.dat">
+      <Filter>制作note\map\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Map\Map60.dat">
+      <Filter>制作note\map\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Map\Map70.dat">
+      <Filter>制作note\map\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Map\Map80.dat">
+      <Filter>制作note\map\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Map\Map90.dat">
+      <Filter>制作note\map\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\Event100.dat">
+      <Filter>制作note\event\game_event</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\EventSwitch10.dat">
+      <Filter>制作note\event\game_event\switch</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\EventSwitch100.dat">
+      <Filter>制作note\event\game_event\switch</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\EventSwitch110.dat">
+      <Filter>制作note\event\game_event\switch</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\EventSwitch120.dat">
+      <Filter>制作note\event\game_event\switch</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\EventSwitch130.dat">
+      <Filter>制作note\event\game_event\switch</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\EventSwitch140.dat">
+      <Filter>制作note\event\game_event\switch</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\EventSwitch150.dat">
+      <Filter>制作note\event\game_event\switch</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\EventSwitch20.dat">
+      <Filter>制作note\event\game_event\switch</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\EventSwitch30.dat">
+      <Filter>制作note\event\game_event\switch</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\EventSwitch40.dat">
+      <Filter>制作note\event\game_event\switch</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\EventSwitch50.dat">
+      <Filter>制作note\event\game_event\switch</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\EventSwitch60.dat">
+      <Filter>制作note\event\game_event\switch</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\EventSwitch70.dat">
+      <Filter>制作note\event\game_event\switch</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\EventSwitch80.dat">
+      <Filter>制作note\event\game_event\switch</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\EventSwitch90.dat">
+      <Filter>制作note\event\game_event\switch</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\Event0.dat">
+      <Filter>制作note\event\game_event\goal</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\Event1000.dat">
+      <Filter>制作note\event\game_event\boss</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\Event1001.dat">
+      <Filter>制作note\event\game_event\boss\01_vs_exe</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\Event1002.dat">
+      <Filter>制作note\event\game_event\boss\01_vs_exe</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\Event1003.dat">
+      <Filter>制作note\event\game_event\boss\01_vs_exe</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\Event2001.dat">
+      <Filter>制作note\event\game_event\boss\02_vs_yamakage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\Event2002.dat">
+      <Filter>制作note\event\game_event\boss\02_vs_yamakage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\Event2003.dat">
+      <Filter>制作note\event\game_event\boss\02_vs_yamakage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\Event3001.dat">
+      <Filter>制作note\event\game_event\boss\03_vs_feather</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\Event3002.dat">
+      <Filter>制作note\event\game_event\boss\03_vs_feather</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\Event3003.dat">
+      <Filter>制作note\event\game_event\boss\03_vs_feather</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\Event1.dat">
+      <Filter>制作note\event\game_event\stage\stage1</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\Event2.dat">
+      <Filter>制作note\event\game_event\stage\stage1</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\Event3.dat">
+      <Filter>制作note\event\game_event\stage\stage1</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\Event4.dat">
+      <Filter>制作note\event\game_event\stage\stage1</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\Event11.dat">
+      <Filter>制作note\event\game_event\stage\stage2</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\Event12.dat">
+      <Filter>制作note\event\game_event\stage\stage2</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\Event21.dat">
+      <Filter>制作note\event\game_event\stage\stage3</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\Event22.dat">
+      <Filter>制作note\event\game_event\stage\stage3</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\Event10001.dat">
+      <Filter>制作note\event\demo_event</Filter>
+    </None>
+    <None Include="..\Resources\Data\Event\EventSwitch10001.dat">
+      <Filter>制作note\event\demo_event</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\指南書_Effect.eff">
+      <Filter>制作note\effect</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\anger_mark1.eff">
+      <Filter>制作note\effect\A～G</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\arrow1.eff">
+      <Filter>制作note\effect\A～G</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\continue.eff">
+      <Filter>制作note\effect\A～G</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\continue_no.eff">
+      <Filter>制作note\effect\A～G</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\continue_no_smoke.eff">
+      <Filter>制作note\effect\A～G</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\continue_yes.eff">
+      <Filter>制作note\effect\A～G</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\continue_yes_smoke.eff">
+      <Filter>制作note\effect\A～G</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\demo1.eff">
+      <Filter>制作note\effect\A～G</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\demo2.eff">
+      <Filter>制作note\effect\A～G</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\end_logo_project.eff">
+      <Filter>制作note\effect\A～G</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\goal.eff">
+      <Filter>制作note\effect\A～G</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\goal_smoke1.eff">
+      <Filter>制作note\effect\A～G</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\goal_smoke2.eff">
+      <Filter>制作note\effect\A～G</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\logo_jec.eff">
+      <Filter>制作note\effect\H～N</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\logo_project.eff">
+      <Filter>制作note\effect\H～N</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\next_arrow.eff">
+      <Filter>制作note\effect\H～N</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\shadow_ball.eff">
+      <Filter>制作note\effect\O～U</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\shine_ball.eff">
+      <Filter>制作note\effect\O～U</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\small_smoke.eff">
+      <Filter>制作note\effect\O～U</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\smoke.eff">
+      <Filter>制作note\effect\O～U</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\stage1.eff">
+      <Filter>制作note\effect\O～U</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\stage10.eff">
+      <Filter>制作note\effect\O～U</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\stage2.eff">
+      <Filter>制作note\effect\O～U</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\stage3.eff">
+      <Filter>制作note\effect\O～U</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\stage4.eff">
+      <Filter>制作note\effect\O～U</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\stage5.eff">
+      <Filter>制作note\effect\O～U</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\stage6.eff">
+      <Filter>制作note\effect\O～U</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\stage7.eff">
+      <Filter>制作note\effect\O～U</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\stage8.eff">
+      <Filter>制作note\effect\O～U</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\stage9.eff">
+      <Filter>制作note\effect\O～U</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\star.eff">
+      <Filter>制作note\effect\O～U</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\start.eff">
+      <Filter>制作note\effect\O～U</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\time_up.eff">
+      <Filter>制作note\effect\O～U</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\vs_exe1.eff">
+      <Filter>制作note\effect\V～Z</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\vs_exe2.eff">
+      <Filter>制作note\effect\V～Z</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\kageo_comment_ache.eff">
+      <Filter>制作note\effect\カゲオの声</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\kageo_comment_anger.eff">
+      <Filter>制作note\effect\カゲオの声</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\kageo_comment_haste.eff">
+      <Filter>制作note\effect\カゲオの声</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\kageo_comment_shadowball.eff">
+      <Filter>制作note\effect\カゲオの声</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\kageo_comment_shineball.eff">
+      <Filter>制作note\effect\カゲオの声</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\kageo_comment_uwaaaa.eff">
+      <Filter>制作note\effect\カゲオの声</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\kagemi_comment_ache.eff">
+      <Filter>制作note\effect\カゲミの声</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\kagemi_comment_anger.eff">
+      <Filter>制作note\effect\カゲミの声</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\kagemi_comment_energyball.eff">
+      <Filter>制作note\effect\カゲミの声</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\kagemi_comment_energyshoot.eff">
+      <Filter>制作note\effect\カゲミの声</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\kagemi_comment_haste.eff">
+      <Filter>制作note\effect\カゲミの声</Filter>
+    </None>
+    <None Include="..\Resources\Effect\Data\kagemi_comment_kyaaaa.eff">
+      <Filter>制作note\effect\カゲミの声</Filter>
+    </None>
+    <None Include="..\Resources\Data\Stage\GameStage10.dat">
+      <Filter>制作note\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Stage\GameStage100.dat">
+      <Filter>制作note\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Stage\GameStage10001.dat">
+      <Filter>制作note\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Stage\GameStage110.dat">
+      <Filter>制作note\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Stage\GameStage120.dat">
+      <Filter>制作note\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Stage\GameStage130.dat">
+      <Filter>制作note\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Stage\GameStage140.dat">
+      <Filter>制作note\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Stage\GameStage150.dat">
+      <Filter>制作note\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Stage\GameStage20.dat">
+      <Filter>制作note\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Stage\GameStage30.dat">
+      <Filter>制作note\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Stage\GameStage40.dat">
+      <Filter>制作note\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Stage\GameStage50.dat">
+      <Filter>制作note\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Stage\GameStage60.dat">
+      <Filter>制作note\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Stage\GameStage70.dat">
+      <Filter>制作note\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Stage\GameStage80.dat">
+      <Filter>制作note\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Stage\GameStage90.dat">
+      <Filter>制作note\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\Stage\指南書_GameStage.dat">
+      <Filter>制作note\stage</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\arch1.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\arch2.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\arch3.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\athletics_box1.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\athletics_box2.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\bridge1.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\castle1.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\cloud1.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\cloud2.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\fence1.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\goal_sign1.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\jim1.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\jim_part1.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\jim_part2.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\park_enter1.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\park_enter2.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\sandbox_base1.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\sandbox_enter1.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\sandbox_exit1.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\sign_board1.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\sign_board2.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\slide1.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\stair1.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\stair2.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\start_sign1.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\swing1.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\tree1.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\ShadowObject\x_box1.sob">
+      <Filter>制作note\shadowObject</Filter>
+    </None>
+    <None Include="..\Resources\Data\MovieBase\MovieFile1.mdat">
+      <Filter>制作note\movie_base</Filter>
+    </None>
+    <None Include="..\Resources\Data\MovieBase\MovieFile1000.mdat">
+      <Filter>制作note\movie_base</Filter>
+    </None>
+    <None Include="..\Resources\Data\MovieBase\MovieFile2.mdat">
+      <Filter>制作note\movie_base</Filter>
+    </None>
+    <None Include="..\Resources\Data\MovieBase\MovieFile3.mdat">
+      <Filter>制作note\movie_base</Filter>
+    </None>
+    <None Include="..\Resources\Data\Enemy\EnemyMap10.dat">
+      <Filter>制作note\enemy</Filter>
+    </None>
+    <None Include="..\Resources\Data\Enemy\EnemyMap100.dat">
+      <Filter>制作note\enemy</Filter>
+    </None>
+    <None Include="..\Resources\Data\Enemy\EnemyMap20.dat">
+      <Filter>制作note\enemy</Filter>
+    </None>
+    <None Include="..\Resources\Data\Enemy\EnemyMap30.dat">
+      <Filter>制作note\enemy</Filter>
+    </None>
+    <None Include="..\Resources\Data\Enemy\EnemyMap40.dat">
+      <Filter>制作note\enemy</Filter>
+    </None>
+    <None Include="..\Resources\Data\Enemy\EnemyMap50.dat">
+      <Filter>制作note\enemy</Filter>
+    </None>
+    <None Include="..\Resources\Data\Enemy\EnemyMap60.dat">
+      <Filter>制作note\enemy</Filter>
+    </None>
+    <None Include="..\Resources\Data\Enemy\EnemyMap70.dat">
+      <Filter>制作note\enemy</Filter>
+    </None>
+    <None Include="..\Resources\Data\Enemy\EnemyMap80.dat">
+      <Filter>制作note\enemy</Filter>
+    </None>
+    <None Include="..\Resources\Data\Enemy\EnemyMap90.dat">
+      <Filter>制作note\enemy</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project_Games.rc">
+      <Filter>リソース</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

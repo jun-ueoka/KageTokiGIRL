@@ -1,0 +1,25 @@
+EXECUTE_	100,
+
+OBJ_CHAN	CAMERA__	DOUBLETA
+EXECUTE_	50,
+
+TALK____	 400.0, 250.0, 0, 0, 1,		S_NONE
+ん？誰？			150, 150, 255, 255,
+TALK_STA
+
+TALK____	 650.0, 250.0, 0, 1, 1,		S_NONE
+私はヤマカゲ		240, 150, 0, 255,
+TALK_STA
+
+TALK____	 650.0, 250.0, 0, 1, 2,		S_NONE
+君は邪魔だ			240, 150, 0, 255,
+…ここで消す		240, 150, 0, 255,
+TALK_STA
+
+OBJ_CREA	CEFFECT_
+vs_exe1		0,	1450.0, 350.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, WAIT_2D_
+OBJ_CREA	CEFFECT_
+vs_exe2		0,	 512.0, 350.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, WAIT_2D_
+EXECUTE_	150,
+
+EV_QUIT_

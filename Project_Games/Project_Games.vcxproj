@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A976A568-89FB-4123-9D22-5DCE85E17502}</ProjectGuid>
+    <RootNamespace>Project_Games</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CLRSupport>true</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2009%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2009%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2009%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2009%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Precompiler.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2009%29\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <FxCompile>
+      <EntryPointName>main</EntryPointName>
+      <ShaderModel>4.0_level_9_3</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Precompiler.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>Cdecl</CallingConvention>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <PreventDllBinding>false</PreventDllBinding>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2009%29\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>d3dxof.lib;dxguid.lib;d3d9.lib;d3dx9d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Class_GameApplication.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Source\Class_Scene.cpp" />
+    <ClCompile Include="..\Source\Class_SceneStage1.cpp" />
+    <ClCompile Include="..\Source\Class_SceneMovie2.cpp" />
+    <ClCompile Include="..\Source\Class_SceneStage2.cpp" />
+    <ClCompile Include="..\Source\Class_SceneMovie3.cpp" />
+    <ClCompile Include="..\Source\Class_SceneStage3.cpp" />
+    <ClCompile Include="..\Source\Class_SceneBoss1.cpp" />
+    <ClCompile Include="..\Source\Class_SceneMovie1.cpp" />
+    <ClCompile Include="..\Source\Class_SceneMovie4.cpp" />
+    <ClCompile Include="..\Source\Class_SceneStage4.cpp" />
+    <ClCompile Include="..\Source\Class_SceneMovie5.cpp" />
+    <ClCompile Include="..\Source\Class_SceneStage5.cpp" />
+    <ClCompile Include="..\Source\Class_SceneMovie6.cpp" />
+    <ClCompile Include="..\Source\Class_SceneBoss2.cpp" />
+    <ClCompile Include="..\Source\Class_SceneStage6.cpp" />
+    <ClCompile Include="..\Source\Class_SceneMovie7.cpp" />
+    <ClCompile Include="..\Source\Class_SceneStage7.cpp" />
+    <ClCompile Include="..\Source\Class_SceneMovie8.cpp" />
+    <ClCompile Include="..\Source\Class_SceneStage8.cpp" />
+    <ClCompile Include="..\Source\Class_SceneMovie9.cpp" />
+    <ClCompile Include="..\Source\Class_SceneStage9.cpp" />
+    <ClCompile Include="..\Source\Class_SceneBoss3.cpp" />
+    <ClCompile Include="..\Source\Class_SceneMovie10.cpp" />
+    <ClCompile Include="..\Source\Class_SceneStage10.cpp" />
+    <ClCompile Include="..\Source\Class_SceneBoss4.cpp" />
+    <ClCompile Include="..\Source\Class_SceneMovie11.cpp" />
+    <ClCompile Include="..\Source\Class_SceneBoss5.cpp" />
+    <ClCompile Include="..\Source\Class_SceneMovie12.cpp" />
+    <ClCompile Include="..\Source\Class_SceneAdventureGame.cpp" />
+    <ClCompile Include="..\Source\Class_SceneAdventureGameData.cpp" />
+    <ClCompile Include="..\Source\Class_BackSky.cpp" />
+    <ClCompile Include="..\Source\Class_SceneAdventureGameClear.cpp" />
+    <ClCompile Include="..\Source\Class_SceneAdventureGameContinue.cpp" />
+    <ClCompile Include="..\Source\Class_SceneAdventureGameEvent.cpp" />
+    <ClCompile Include="..\Source\Class_SceneAdventureGamePlay.cpp" />
+    <ClCompile Include="..\Source\Class_SceneAdventureGameQuit.cpp" />
+    <ClCompile Include="..\Source\Class_SceneAdventureGameReset.cpp" />
+    <ClCompile Include="..\Source\Class_SceneAdventureGameStageChange.cpp" />
+    <ClCompile Include="..\Source\Class_SceneAdventureGameStageOut.cpp" />
+    <ClCompile Include="..\Source\Class_SceneMovieBase.cpp" />
+    <ClCompile Include="..\Source\Class_SceneLogo.cpp" />
+    <ClCompile Include="..\Source\Class_SceneDemo.cpp" />
+    <ClCompile Include="..\Source\Class_SceneTitle.cpp" />
+    <ClCompile Include="..\Source\Class_SceneEnding.cpp" />
+    <ClCompile Include="..\Source\Class_SceneGameOver.cpp" />
+    <ClCompile Include="..\source\GameCommon.cpp" />
+    <ClCompile Include="..\Source\Class_GameMap.cpp" />
+    <ClCompile Include="..\Source\Class_ShadowObject.cpp" />
+    <ClCompile Include="..\Source\Class_Comment.cpp" />
+    <ClCompile Include="..\Source\Class_KageTokiAdventCharacter.cpp" />
+    <ClCompile Include="..\Source\Class_AdventEnemyManager.cpp" />
+    <ClCompile Include="..\Source\Class_EnemyBall.cpp" />
+    <ClCompile Include="..\Source\Class_KageTokiAdventEnemy.cpp" />
+    <ClCompile Include="..\Source\Class_EnemyShadoll.cpp" />
+    <ClCompile Include="..\Source\Class_EnemyShadog.cpp" />
+    <ClCompile Include="..\Source\Class_EnemyShadollSword.cpp" />
+    <ClCompile Include="..\Source\Class_EnemyShadollArchery.cpp" />
+    <ClCompile Include="..\Source\Class_KageTokiAdventBoss.cpp" />
+    <ClCompile Include="..\Source\Class_BossClime.cpp" />
+    <ClCompile Include="..\Source\Class_BossExe.cpp" />
+    <ClCompile Include="..\Source\Class_BossYamakage.cpp" />
+    <ClCompile Include="..\Source\Class_YamakageWeapon.cpp" />
+    <ClCompile Include="..\Source\Class_BossFeather.cpp" />
+    <ClCompile Include="..\Source\Class_BossTima.cpp" />
+    <ClCompile Include="..\Source\Class_AdventPlayer.cpp" />
+    <ClCompile Include="..\Source\Class_AdventKageo.cpp" />
+    <ClCompile Include="..\Source\Class_KageoBall.cpp" />
+    <ClCompile Include="..\Source\Class_AdventKagemi.cpp" />
+    <ClCompile Include="..\Source\Class_KagemiBall.cpp" />
+    <ClCompile Include="..\source\UtilityFunction.cpp" />
+    <ClCompile Include="..\Source\Version.cpp" />
+    <ClCompile Include="..\Source\DirectX.cpp" />
+    <ClCompile Include="..\source\Class_GraphicDevice.cpp" />
+    <ClCompile Include="..\Source\Class_Spline.cpp" />
+    <ClCompile Include="..\Source\Class_OggVorbis.cpp" />
+    <ClCompile Include="..\Source\Class_Sound.cpp" />
+    <ClCompile Include="..\Source\Class_Sound_OggVorbis.cpp" />
+    <ClCompile Include="..\source\Class_3DObject.cpp" />
+    <ClCompile Include="..\source\Class_3DObjectCamera.cpp" />
+    <ClCompile Include="..\source\Class_3DObjectGroup.cpp" />
+    <ClCompile Include="..\source\Class_Mesh.cpp" />
+    <ClCompile Include="..\source\Class_SkinMesh.cpp" />
+    <ClCompile Include="..\Source\Class_Texture.cpp" />
+    <ClCompile Include="..\Source\Class_3DEffect.cpp" />
+    <ClCompile Include="..\Source\Class_3DEffectCenter.cpp" />
+    <ClCompile Include="..\Source\Class_MeshBase.cpp" />
+    <ClCompile Include="..\Source\Class_SkinMeshBase.cpp" />
+    <ClCompile Include="..\Source\Class_TextureBase.cpp" />
+    <ClCompile Include="..\Source\Class_FontBase.cpp" />
+    <ClCompile Include="..\Source\Class_EffectBase.cpp" />
+    <ClCompile Include="..\Source\Class_DirectInput.cpp" />
+    <ClCompile Include="..\Source\MySystem.cpp" />
+    <ClCompile Include="..\Source\Class_Direction.cpp" />
+    <ClCompile Include="..\Source\Class_ZTextureShader.cpp" />
+    <ClCompile Include="..\Source\Class_DepthBufShader.cpp" />
+    <ClCompile Include="..\Source\Class_SaveResource.cpp" />
+    <ClCompile Include="..\Source\Class_3DMap.cpp" />
+    <ClCompile Include="..\Source\Class_MovieCamera.cpp" />
+    <ClCompile Include="..\source\WinMain.cpp" />
+    <ClCompile Include="..\source\Class_WindowManager.cpp" />
+    <ClCompile Include="..\Source\Precompiler.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Class_GameApplication.h" />
+    <ClInclude Include="..\source\Class_Scene.h" />
+    <ClInclude Include="..\Source\Class_SceneStage1.h" />
+    <ClInclude Include="..\Source\Class_SceneMovie2.h" />
+    <ClInclude Include="..\Source\Class_SceneStage2.h" />
+    <ClInclude Include="..\Source\Class_SceneMovie3.h" />
+    <ClInclude Include="..\Source\Class_SceneStage3.h" />
+    <ClInclude Include="..\Source\Class_SceneBoss1.h" />
+    <ClInclude Include="..\Source\Class_SceneMovie1.h" />
+    <ClInclude Include="..\Source\Class_SceneMovie4.h" />
+    <ClInclude Include="..\Source\Class_SceneStage4.h" />
+    <ClInclude Include="..\Source\Class_SceneMovie5.h" />
+    <ClInclude Include="..\Source\Class_SceneStage5.h" />
+    <ClInclude Include="..\Source\Class_SceneMovie6.h" />
+    <ClInclude Include="..\Source\Class_SceneBoss2.h" />
+    <ClInclude Include="..\Source\Class_SceneStage6.h" />
+    <ClInclude Include="..\Source\Class_SceneMovie7.h" />
+    <ClInclude Include="..\Source\Class_SceneStage7.h" />
+    <ClInclude Include="..\Source\Class_SceneMovie8.h" />
+    <ClInclude Include="..\Source\Class_SceneStage8.h" />
+    <ClInclude Include="..\Source\Class_SceneMovie9.h" />
+    <ClInclude Include="..\Source\Class_SceneStage9.h" />
+    <ClInclude Include="..\Source\Class_SceneBoss3.h" />
+    <ClInclude Include="..\Source\Class_SceneMovie10.h" />
+    <ClInclude Include="..\Source\Class_SceneStage10.h" />
+    <ClInclude Include="..\Source\Class_SceneBoss4.h" />
+    <ClInclude Include="..\Source\Class_SceneMovie11.h" />
+    <ClInclude Include="..\Source\Class_SceneBoss5.h" />
+    <ClInclude Include="..\Source\Class_SceneMovie12.h" />
+    <ClInclude Include="..\Source\Class_SceneAdventureGame.h" />
+    <ClInclude Include="..\Source\Class_SceneAdventureGameData.h" />
+    <ClInclude Include="..\Source\Class_Back.h" />
+    <ClInclude Include="..\Source\Class_BackSky.h" />
+    <ClInclude Include="..\Source\Class_SceneMovieBase.h" />
+    <ClInclude Include="..\Source\Class_SceneLogo.h" />
+    <ClInclude Include="..\Source\Class_SceneDemo.h" />
+    <ClInclude Include="..\Source\Class_SceneTitle.h" />
+    <ClInclude Include="..\Source\Class_SceneEnding.h" />
+    <ClInclude Include="..\Source\Class_SceneGameOver.h" />
+    <ClInclude Include="..\Source\GameCommon.h" />
+    <ClInclude Include="..\Source\Class_GameMap.h" />
+    <ClInclude Include="..\Source\Class_ShadowObject.h" />
+    <ClInclude Include="..\Source\Class_Comment.h" />
+    <ClInclude Include="..\Source\Class_KageTokiAdventCharacter.h" />
+    <ClInclude Include="..\Source\Class_AdventEnemyManager.h" />
+    <ClInclude Include="..\Source\Class_EnemyBall.h" />
+    <ClInclude Include="..\Source\Class_KageTokiAdventEnemy.h" />
+    <ClInclude Include="..\Source\Class_EnemyShadoll.h" />
+    <ClInclude Include="..\Source\Class_EnemyShadog.h" />
+    <ClInclude Include="..\Source\Class_EnemyShadollSword.h" />
+    <ClInclude Include="..\Source\Class_EnemyShadollArchery.h" />
+    <ClInclude Include="..\Source\Class_KageTokiAdventBoss.h" />
+    <ClInclude Include="..\Source\Class_BossClime.h" />
+    <ClInclude Include="..\Source\Class_BossExe.h" />
+    <ClInclude Include="..\Source\Class_BossYamakage.h" />
+    <ClInclude Include="..\Source\Class_YamakageWeapon.h" />
+    <ClInclude Include="..\Source\Class_BossFeather.h" />
+    <ClInclude Include="..\Source\Class_BossTima.h" />
+    <ClInclude Include="..\Source\Class_AdventPlayer.h" />
+    <ClInclude Include="..\Source\Class_AdventKageo.h" />
+    <ClInclude Include="..\Source\Class_KageoBall.h" />
+    <ClInclude Include="..\Source\Class_AdventKagemi.h" />
+    <ClInclude Include="..\Source\Class_KagemiBall.h" />
+    <ClInclude Include="..\source\UtilityFunction.h" />
+    <ClInclude Include="..\Source\Version.h" />
+    <ClInclude Include="..\Source\DirectX.h" />
+    <ClInclude Include="..\source\Class_GraphicDevice.h" />
+    <ClInclude Include="..\Source\Class_Spline.h" />
+    <ClInclude Include="..\Source\Sound.h" />
+    <ClInclude Include="..\Source\Class_OggVorbis.h" />
+    <ClInclude Include="..\Source\Class_Sound.h" />
+    <ClInclude Include="..\Source\Class_Sound_OggVorbis.h" />
+    <ClInclude Include="..\source\Class_3DObject.h" />
+    <ClInclude Include="..\source\Class_3DObjectCamera.h" />
+    <ClInclude Include="..\source\Class_3DObjectGroup.h" />
+    <ClInclude Include="..\source\Class_Mesh.h" />
+    <ClInclude Include="..\source\Class_SkinMesh.h" />
+    <ClInclude Include="..\Source\Class_Texture.h" />
+    <ClInclude Include="..\Source\Class_3DEffect.h" />
+    <ClInclude Include="..\Source\Class_3DEffectCenter.h" />
+    <ClInclude Include="..\Source\Class_MeshBase.h" />
+    <ClInclude Include="..\Source\Class_SkinMeshBase.h" />
+    <ClInclude Include="..\Source\Class_TextureBase.h" />
+    <ClInclude Include="..\Source\Class_FontBase.h" />
+    <ClInclude Include="..\Source\Class_EffectBase.h" />
+    <ClInclude Include="..\Source\Class_DirectInput.h" />
+    <ClInclude Include="..\Source\MySystem.h" />
+    <ClInclude Include="..\Source\Class_Direction.h" />
+    <ClInclude Include="..\Source\Class_ZTextureShader.h" />
+    <ClInclude Include="..\Source\Class_DepthBufShader.h" />
+    <ClInclude Include="..\Source\Class_SaveResource.h" />
+    <ClInclude Include="..\Source\Class_3DMap.h" />
+    <ClInclude Include="..\Source\Class_MovieCamera.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\source\Class_WindowManager.h" />
+    <ClInclude Include="..\Source\Precompiler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\source\制作note\class.txt" />
+    <Text Include="..\Source\制作note\event.txt" />
+    <Text Include="..\Source\制作note\header.txt" />
+    <Text Include="..\source\制作note\namespase.txt" />
+    <Text Include="..\Source\制作note\最適化について（最適化オプションについて）.txt" />
+    <Text Include="..\Resources\Data\Event\Eventの書き方.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\Data\Map\Map201.dat" />
+    <None Include="..\Resources\Data\Map\Map202.dat" />
+    <None Include="..\Resources\Data\Map\Map203.dat" />
+    <None Include="..\Resources\Data\Map\Map204.dat" />
+    <None Include="..\Resources\Data\Map\Map10001.dat" />
+    <None Include="..\Resources\Data\Map\Map110.dat" />
+    <None Include="..\Resources\Data\Map\Map120.dat" />
+    <None Include="..\Resources\Data\Map\Map130.dat" />
+    <None Include="..\Resources\Data\Map\Map140.dat" />
+    <None Include="..\Resources\Data\Map\Map150.dat" />
+    <None Include="..\Resources\Data\Map\Map10.dat" />
+    <None Include="..\Resources\Data\Map\Map100.dat" />
+    <None Include="..\Resources\Data\Map\Map20.dat" />
+    <None Include="..\Resources\Data\Map\Map30.dat" />
+    <None Include="..\Resources\Data\Map\Map40.dat" />
+    <None Include="..\Resources\Data\Map\Map50.dat" />
+    <None Include="..\Resources\Data\Map\Map60.dat" />
+    <None Include="..\Resources\Data\Map\Map70.dat" />
+    <None Include="..\Resources\Data\Map\Map80.dat" />
+    <None Include="..\Resources\Data\Map\Map90.dat" />
+    <None Include="..\Resources\Data\Event\Event100.dat" />
+    <None Include="..\Resources\Data\Event\EventSwitch10.dat" />
+    <None Include="..\Resources\Data\Event\EventSwitch100.dat" />
+    <None Include="..\Resources\Data\Event\EventSwitch110.dat" />
+    <None Include="..\Resources\Data\Event\EventSwitch120.dat" />
+    <None Include="..\Resources\Data\Event\EventSwitch130.dat" />
+    <None Include="..\Resources\Data\Event\EventSwitch140.dat" />
+    <None Include="..\Resources\Data\Event\EventSwitch150.dat" />
+    <None Include="..\Resources\Data\Event\EventSwitch20.dat" />
+    <None Include="..\Resources\Data\Event\EventSwitch30.dat" />
+    <None Include="..\Resources\Data\Event\EventSwitch40.dat" />
+    <None Include="..\Resources\Data\Event\EventSwitch50.dat" />
+    <None Include="..\Resources\Data\Event\EventSwitch60.dat" />
+    <None Include="..\Resources\Data\Event\EventSwitch70.dat" />
+    <None Include="..\Resources\Data\Event\EventSwitch80.dat" />
+    <None Include="..\Resources\Data\Event\EventSwitch90.dat" />
+    <None Include="..\Resources\Data\Event\Event0.dat" />
+    <None Include="..\Resources\Data\Event\Event1000.dat" />
+    <None Include="..\Resources\Data\Event\Event1001.dat" />
+    <None Include="..\Resources\Data\Event\Event1002.dat" />
+    <None Include="..\Resources\Data\Event\Event1003.dat" />
+    <None Include="..\Resources\Data\Event\Event2001.dat" />
+    <None Include="..\Resources\Data\Event\Event2002.dat" />
+    <None Include="..\Resources\Data\Event\Event2003.dat" />
+    <None Include="..\Resources\Data\Event\Event3001.dat" />
+    <None Include="..\Resources\Data\Event\Event3002.dat" />
+    <None Include="..\Resources\Data\Event\Event3003.dat" />
+    <None Include="..\Resources\Data\Event\Event1.dat" />
+    <None Include="..\Resources\Data\Event\Event2.dat" />
+    <None Include="..\Resources\Data\Event\Event3.dat" />
+    <None Include="..\Resources\Data\Event\Event4.dat" />
+    <None Include="..\Resources\Data\Event\Event11.dat" />
+    <None Include="..\Resources\Data\Event\Event12.dat" />
+    <None Include="..\Resources\Data\Event\Event21.dat" />
+    <None Include="..\Resources\Data\Event\Event22.dat" />
+    <None Include="..\Resources\Data\Event\Event10001.dat" />
+    <None Include="..\Resources\Data\Event\EventSwitch10001.dat" />
+    <None Include="..\Resources\Effect\Data\指南書_Effect.eff" />
+    <None Include="..\Resources\Effect\Data\anger_mark1.eff" />
+    <None Include="..\Resources\Effect\Data\arrow1.eff" />
+    <None Include="..\Resources\Effect\Data\continue.eff" />
+    <None Include="..\Resources\Effect\Data\continue_no.eff" />
+    <None Include="..\Resources\Effect\Data\continue_no_smoke.eff" />
+    <None Include="..\Resources\Effect\Data\continue_yes.eff" />
+    <None Include="..\Resources\Effect\Data\continue_yes_smoke.eff" />
+    <None Include="..\Resources\Effect\Data\demo1.eff" />
+    <None Include="..\Resources\Effect\Data\demo2.eff" />
+    <None Include="..\Resources\Effect\Data\end_logo_project.eff" />
+    <None Include="..\Resources\Effect\Data\goal.eff" />
+    <None Include="..\Resources\Effect\Data\goal_smoke1.eff" />
+    <None Include="..\Resources\Effect\Data\goal_smoke2.eff" />
+    <None Include="..\Resources\Effect\Data\logo_jec.eff" />
+    <None Include="..\Resources\Effect\Data\logo_project.eff" />
+    <None Include="..\Resources\Effect\Data\next_arrow.eff" />
+    <None Include="..\Resources\Effect\Data\shadow_ball.eff" />
+    <None Include="..\Resources\Effect\Data\shine_ball.eff" />
+    <None Include="..\Resources\Effect\Data\small_smoke.eff" />
+    <None Include="..\Resources\Effect\Data\smoke.eff" />
+    <None Include="..\Resources\Effect\Data\stage1.eff" />
+    <None Include="..\Resources\Effect\Data\stage10.eff" />
+    <None Include="..\Resources\Effect\Data\stage2.eff" />
+    <None Include="..\Resources\Effect\Data\stage3.eff" />
+    <None Include="..\Resources\Effect\Data\stage4.eff" />
+    <None Include="..\Resources\Effect\Data\stage5.eff" />
+    <None Include="..\Resources\Effect\Data\stage6.eff" />
+    <None Include="..\Resources\Effect\Data\stage7.eff" />
+    <None Include="..\Resources\Effect\Data\stage8.eff" />
+    <None Include="..\Resources\Effect\Data\stage9.eff" />
+    <None Include="..\Resources\Effect\Data\star.eff" />
+    <None Include="..\Resources\Effect\Data\start.eff" />
+    <None Include="..\Resources\Effect\Data\time_up.eff" />
+    <None Include="..\Resources\Effect\Data\vs_exe1.eff" />
+    <None Include="..\Resources\Effect\Data\vs_exe2.eff" />
+    <None Include="..\Resources\Effect\Data\kageo_comment_ache.eff" />
+    <None Include="..\Resources\Effect\Data\kageo_comment_anger.eff" />
+    <None Include="..\Resources\Effect\Data\kageo_comment_haste.eff" />
+    <None Include="..\Resources\Effect\Data\kageo_comment_shadowball.eff" />
+    <None Include="..\Resources\Effect\Data\kageo_comment_shineball.eff" />
+    <None Include="..\Resources\Effect\Data\kageo_comment_uwaaaa.eff" />
+    <None Include="..\Resources\Effect\Data\kagemi_comment_ache.eff" />
+    <None Include="..\Resources\Effect\Data\kagemi_comment_anger.eff" />
+    <None Include="..\Resources\Effect\Data\kagemi_comment_energyball.eff" />
+    <None Include="..\Resources\Effect\Data\kagemi_comment_energyshoot.eff" />
+    <None Include="..\Resources\Effect\Data\kagemi_comment_haste.eff" />
+    <None Include="..\Resources\Effect\Data\kagemi_comment_kyaaaa.eff" />
+    <None Include="..\Resources\Data\Stage\GameStage10.dat" />
+    <None Include="..\Resources\Data\Stage\GameStage100.dat" />
+    <None Include="..\Resources\Data\Stage\GameStage10001.dat" />
+    <None Include="..\Resources\Data\Stage\GameStage110.dat" />
+    <None Include="..\Resources\Data\Stage\GameStage120.dat" />
+    <None Include="..\Resources\Data\Stage\GameStage130.dat" />
+    <None Include="..\Resources\Data\Stage\GameStage140.dat" />
+    <None Include="..\Resources\Data\Stage\GameStage150.dat" />
+    <None Include="..\Resources\Data\Stage\GameStage20.dat" />
+    <None Include="..\Resources\Data\Stage\GameStage30.dat" />
+    <None Include="..\Resources\Data\Stage\GameStage40.dat" />
+    <None Include="..\Resources\Data\Stage\GameStage50.dat" />
+    <None Include="..\Resources\Data\Stage\GameStage60.dat" />
+    <None Include="..\Resources\Data\Stage\GameStage70.dat" />
+    <None Include="..\Resources\Data\Stage\GameStage80.dat" />
+    <None Include="..\Resources\Data\Stage\GameStage90.dat" />
+    <None Include="..\Resources\Data\Stage\指南書_GameStage.dat" />
+    <None Include="..\Resources\Data\ShadowObject\arch1.sob" />
+    <None Include="..\Resources\Data\ShadowObject\arch2.sob" />
+    <None Include="..\Resources\Data\ShadowObject\arch3.sob" />
+    <None Include="..\Resources\Data\ShadowObject\athletics_box1.sob" />
+    <None Include="..\Resources\Data\ShadowObject\athletics_box2.sob" />
+    <None Include="..\Resources\Data\ShadowObject\bridge1.sob" />
+    <None Include="..\Resources\Data\ShadowObject\castle1.sob" />
+    <None Include="..\Resources\Data\ShadowObject\cloud1.sob" />
+    <None Include="..\Resources\Data\ShadowObject\cloud2.sob" />
+    <None Include="..\Resources\Data\ShadowObject\fence1.sob" />
+    <None Include="..\Resources\Data\ShadowObject\goal_sign1.sob" />
+    <None Include="..\Resources\Data\ShadowObject\jim1.sob" />
+    <None Include="..\Resources\Data\ShadowObject\jim_part1.sob" />
+    <None Include="..\Resources\Data\ShadowObject\jim_part2.sob" />
+    <None Include="..\Resources\Data\ShadowObject\park_enter1.sob" />
+    <None Include="..\Resources\Data\ShadowObject\park_enter2.sob" />
+    <None Include="..\Resources\Data\ShadowObject\sandbox_base1.sob" />
+    <None Include="..\Resources\Data\ShadowObject\sandbox_enter1.sob" />
+    <None Include="..\Resources\Data\ShadowObject\sandbox_exit1.sob" />
+    <None Include="..\Resources\Data\ShadowObject\sign_board1.sob" />
+    <None Include="..\Resources\Data\ShadowObject\sign_board2.sob" />
+    <None Include="..\Resources\Data\ShadowObject\slide1.sob" />
+    <None Include="..\Resources\Data\ShadowObject\stair1.sob" />
+    <None Include="..\Resources\Data\ShadowObject\stair2.sob" />
+    <None Include="..\Resources\Data\ShadowObject\start_sign1.sob" />
+    <None Include="..\Resources\Data\ShadowObject\swing1.sob" />
+    <None Include="..\Resources\Data\ShadowObject\tree1.sob" />
+    <None Include="..\Resources\Data\ShadowObject\x_box1.sob" />
+    <None Include="..\Resources\Data\MovieBase\MovieFile1.mdat" />
+    <None Include="..\Resources\Data\MovieBase\MovieFile1000.mdat" />
+    <None Include="..\Resources\Data\MovieBase\MovieFile2.mdat" />
+    <None Include="..\Resources\Data\MovieBase\MovieFile3.mdat" />
+    <None Include="..\Resources\Data\Enemy\EnemyMap10.dat" />
+    <None Include="..\Resources\Data\Enemy\EnemyMap100.dat" />
+    <None Include="..\Resources\Data\Enemy\EnemyMap20.dat" />
+    <None Include="..\Resources\Data\Enemy\EnemyMap30.dat" />
+    <None Include="..\Resources\Data\Enemy\EnemyMap40.dat" />
+    <None Include="..\Resources\Data\Enemy\EnemyMap50.dat" />
+    <None Include="..\Resources\Data\Enemy\EnemyMap60.dat" />
+    <None Include="..\Resources\Data\Enemy\EnemyMap70.dat" />
+    <None Include="..\Resources\Data\Enemy\EnemyMap80.dat" />
+    <None Include="..\Resources\Data\Enemy\EnemyMap90.dat" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project_Games.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,14 @@
+OBJ_CREA	CEFFECT_
+goal		0,	512.0, 250.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, WAIT_2D_
+OBJ_CREA	CEFFECT_
+goal_smoke1	1,	200.0, 200.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, WAIT_2D_
+OBJ_CREA	CEFFECT_
+goal_smoke1	2,	800.0, 400.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, WAIT_2D_
+OBJ_CREA	CEFFECT_
+goal_smoke2	3,	200.0, 400.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, WAIT_2D_
+OBJ_CREA	CEFFECT_
+goal_smoke2	4,	800.0, 200.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, WAIT_2D_
+
+EXECUTE_	200,
+
+GAME_CLE

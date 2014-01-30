@@ -1,0 +1,590 @@
+﻿2014/01/31 2:51:44 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\uejun\Desktop\KageTokiGIRLSln\Project_Games\Project_Games.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /Ox /Ob2 /Oi /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"Precompiler.h" /Fp"Release\Project_Games.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib ..\Source\Precompiler.cpp
+         Precompiler.cpp
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\Class_Mesh.h(110): warning C4316: 'O3D::CMESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\Class_SkinMesh.h(61): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\Class_Texture.h(85): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\Class_3DEffect.h(89): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /Ox /Ob2 /Oi /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"Precompiler.h" /Fp"Release\Project_Games.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib ..\Source\Class_GameApplication.cpp ..\Source\Class_Scene.cpp ..\Source\Class_SceneStage1.cpp ..\Source\Class_SceneMovie2.cpp ..\Source\Class_SceneStage2.cpp ..\Source\Class_SceneMovie3.cpp ..\Source\Class_SceneStage3.cpp ..\Source\Class_SceneBoss1.cpp ..\Source\Class_SceneMovie1.cpp ..\Source\Class_SceneMovie4.cpp ..\Source\Class_SceneStage4.cpp ..\Source\Class_SceneMovie5.cpp ..\Source\Class_SceneStage5.cpp ..\Source\Class_SceneMovie6.cpp ..\Source\Class_SceneBoss2.cpp ..\Source\Class_SceneStage6.cpp ..\Source\Class_SceneMovie7.cpp ..\Source\Class_SceneStage7.cpp ..\Source\Class_SceneMovie8.cpp ..\Source\Class_SceneStage8.cpp ..\Source\Class_SceneMovie9.cpp ..\Source\Class_SceneStage9.cpp ..\Source\Class_SceneBoss3.cpp ..\Source\Class_SceneMovie10.cpp ..\Source\Class_SceneStage10.cpp ..\Source\Class_SceneBoss4.cpp ..\Source\Class_SceneMovie11.cpp ..\Source\Class_SceneBoss5.cpp ..\Source\Class_SceneMovie12.cpp ..\Source\Class_SceneAdventureGame.cpp ..\Source\Class_SceneAdventureGameData.cpp ..\Source\Class_BackSky.cpp ..\Source\Class_SceneAdventureGameClear.cpp ..\Source\Class_SceneAdventureGameContinue.cpp ..\Source\Class_SceneAdventureGameEvent.cpp ..\Source\Class_SceneAdventureGamePlay.cpp ..\Source\Class_SceneAdventureGameQuit.cpp ..\Source\Class_SceneAdventureGameReset.cpp ..\Source\Class_SceneAdventureGameStageChange.cpp ..\Source\Class_SceneAdventureGameStageOut.cpp ..\Source\Class_SceneMovieBase.cpp ..\Source\Class_SceneLogo.cpp ..\Source\Class_SceneDemo.cpp ..\Source\Class_SceneTitle.cpp ..\Source\Class_SceneEnding.cpp ..\Source\Class_SceneGameOver.cpp ..\source\GameCommon.cpp ..\Source\Class_GameMap.cpp ..\Source\Class_ShadowObject.cpp ..\Source\Class_Comment.cpp ..\Source\Class_KageTokiAdventCharacter.cpp ..\Source\Class_AdventEnemyManager.cpp ..\Source\Class_EnemyBall.cpp ..\Source\Class_KageTokiAdventEnemy.cpp ..\Source\Class_EnemyShadoll.cpp ..\Source\Class_EnemyShadog.cpp ..\Source\Class_EnemyShadollSword.cpp ..\Source\Class_EnemyShadollArchery.cpp ..\Source\Class_KageTokiAdventBoss.cpp ..\Source\Class_BossClime.cpp ..\Source\Class_BossExe.cpp ..\Source\Class_BossYamakage.cpp ..\Source\Class_YamakageWeapon.cpp ..\Source\Class_BossFeather.cpp ..\Source\Class_BossTima.cpp ..\Source\Class_AdventPlayer.cpp ..\Source\Class_AdventKageo.cpp ..\Source\Class_KageoBall.cpp ..\Source\Class_AdventKagemi.cpp ..\Source\Class_KagemiBall.cpp ..\source\UtilityFunction.cpp ..\Source\Version.cpp ..\Source\DirectX.cpp ..\source\Class_GraphicDevice.cpp ..\Source\Class_Spline.cpp ..\Source\Class_OggVorbis.cpp ..\Source\Class_Sound.cpp ..\Source\Class_Sound_OggVorbis.cpp ..\source\Class_3DObject.cpp ..\source\Class_3DObjectCamera.cpp ..\source\Class_3DObjectGroup.cpp ..\source\Class_Mesh.cpp ..\source\Class_SkinMesh.cpp ..\Source\Class_Texture.cpp ..\Source\Class_3DEffect.cpp ..\Source\Class_3DEffectCenter.cpp ..\Source\Class_MeshBase.cpp ..\Source\Class_SkinMeshBase.cpp ..\Source\Class_TextureBase.cpp ..\Source\Class_FontBase.cpp ..\Source\Class_EffectBase.cpp ..\Source\Class_DirectInput.cpp ..\Source\MySystem.cpp ..\Source\Class_Direction.cpp ..\Source\Class_ZTextureShader.cpp ..\Source\Class_DepthBufShader.cpp ..\Source\Class_SaveResource.cpp ..\Source\Class_3DMap.cpp ..\Source\Class_MovieCamera.cpp ..\source\WinMain.cpp ..\source\Class_WindowManager.cpp
+         Class_GameApplication.cpp
+         Class_Scene.cpp
+         Class_SceneStage1.cpp
+         Class_SceneMovie2.cpp
+     1>..\Source\Class_SceneMovie2.cpp(79): warning C4316: 'O3D::C3D_OBJECT_CAMERA' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie2.cpp(84): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie2.cpp(87): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie2.cpp(90): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie2.cpp(93): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie2.cpp(98): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie2.cpp(107): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_SceneStage2.cpp
+         Class_SceneMovie3.cpp
+     1>..\Source\Class_SceneMovie3.cpp(95): warning C4316: 'O3D::C3D_OBJECT_CAMERA' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie3.cpp(99): warning C4316: 'O3D::C3D_OBJECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie3.cpp(102): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie3.cpp(104): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie3.cpp(106): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie3.cpp(108): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie3.cpp(110): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie3.cpp(112): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie3.cpp(114): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie3.cpp(116): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie3.cpp(123): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie3.cpp(126): warning C4316: 'O3D::CMESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_SceneStage3.cpp
+         Class_SceneBoss1.cpp
+     1>..\Source\Class_SceneBoss1.cpp(247): warning C4316: 'O3D::CBOSS_EXE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_SceneMovie1.cpp
+     1>..\Source\Class_SceneMovie1.cpp(76): warning C4316: 'O3D::C3D_OBJECT_CAMERA' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie1.cpp(81): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie1.cpp(86): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_SceneMovie4.cpp
+     1>..\Source\Class_SceneMovie4.cpp(76): warning C4316: 'O3D::C3D_OBJECT_CAMERA' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie4.cpp(81): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie4.cpp(86): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie4.cpp(92): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_SceneStage4.cpp
+         Class_SceneMovie5.cpp
+     1>..\Source\Class_SceneMovie5.cpp(76): warning C4316: 'O3D::C3D_OBJECT_CAMERA' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie5.cpp(81): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie5.cpp(86): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie5.cpp(92): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_SceneStage5.cpp
+         Class_SceneMovie6.cpp
+     1>..\Source\Class_SceneMovie6.cpp(76): warning C4316: 'O3D::C3D_OBJECT_CAMERA' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie6.cpp(81): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie6.cpp(86): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie6.cpp(92): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_SceneBoss2.cpp
+     1>..\Source\Class_SceneBoss2.cpp(247): warning C4316: 'O3D::CBOSS_YAMAKAGE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_SceneStage6.cpp
+         Class_SceneMovie7.cpp
+     1>..\Source\Class_SceneMovie7.cpp(76): warning C4316: 'O3D::C3D_OBJECT_CAMERA' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie7.cpp(81): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie7.cpp(86): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie7.cpp(92): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_SceneStage7.cpp
+         Class_SceneMovie8.cpp
+     1>..\Source\Class_SceneMovie8.cpp(76): warning C4316: 'O3D::C3D_OBJECT_CAMERA' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie8.cpp(81): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie8.cpp(86): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie8.cpp(92): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_SceneStage8.cpp
+         コードを生成中...
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+         コンパイル中...
+         Class_SceneMovie9.cpp
+     1>..\Source\Class_SceneMovie9.cpp(76): warning C4316: 'O3D::C3D_OBJECT_CAMERA' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie9.cpp(81): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie9.cpp(86): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie9.cpp(92): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_SceneStage9.cpp
+         Class_SceneBoss3.cpp
+     1>..\Source\Class_SceneBoss3.cpp(247): warning C4316: 'O3D::CBOSS_FEATHER' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_SceneMovie10.cpp
+     1>..\Source\Class_SceneMovie10.cpp(76): warning C4316: 'O3D::C3D_OBJECT_CAMERA' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie10.cpp(81): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie10.cpp(86): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie10.cpp(92): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_SceneStage10.cpp
+         Class_SceneBoss4.cpp
+     1>..\Source\Class_SceneBoss4.cpp(213): warning C4316: 'O3D::CBOSS_EXE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_SceneMovie11.cpp
+     1>..\Source\Class_SceneMovie11.cpp(76): warning C4316: 'O3D::C3D_OBJECT_CAMERA' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie11.cpp(81): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie11.cpp(86): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie11.cpp(92): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_SceneBoss5.cpp
+     1>..\Source\Class_SceneBoss5.cpp(213): warning C4316: 'O3D::CBOSS_EXE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_SceneMovie12.cpp
+     1>..\Source\Class_SceneMovie12.cpp(76): warning C4316: 'O3D::C3D_OBJECT_CAMERA' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie12.cpp(81): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie12.cpp(86): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneMovie12.cpp(92): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_SceneAdventureGame.cpp
+     1>..\Source\Class_SceneAdventureGame.cpp(44): warning C4316: 'O3D::C3D_OBJECT_CAMERA' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneAdventureGame.cpp(100): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneAdventureGame.cpp(103): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_SceneAdventureGameData.cpp
+         Class_BackSky.cpp
+     1>..\Source\Class_BackSky.cpp(32): warning C4316: 'O3D::CMESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_SceneAdventureGameClear.cpp
+         Class_SceneAdventureGameContinue.cpp
+     1>..\Source\Class_SceneAdventureGameContinue.cpp(51): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneAdventureGameContinue.cpp(53): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneAdventureGameContinue.cpp(55): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_SceneAdventureGameEvent.cpp
+     1>..\Source\Class_SceneAdventureGameEvent.cpp(293): warning C4316: 'O3D::CCOMMENT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneAdventureGameEvent.cpp(363): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneAdventureGameEvent.cpp(370): warning C4316: 'O3D::CMESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneAdventureGameEvent.cpp(378): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneAdventureGameEvent.cpp(386): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneAdventureGameEvent.cpp(600): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_SceneAdventureGamePlay.cpp
+         Class_SceneAdventureGameQuit.cpp
+         Class_SceneAdventureGameReset.cpp
+         Class_SceneAdventureGameStageChange.cpp
+         Class_SceneAdventureGameStageOut.cpp
+         コードを生成中...
+         コンパイル中...
+         Class_SceneMovieBase.cpp
+         Class_SceneLogo.cpp
+     1>..\Source\Class_SceneLogo.cpp(74): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneLogo.cpp(79): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneLogo.cpp(86): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_SceneDemo.cpp
+     1>..\Source\Class_SceneDemo.cpp(74): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_SceneTitle.cpp
+     1>..\Source\Class_SceneTitle.cpp(605): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneTitle.cpp(615): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneTitle.cpp(620): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneTitle.cpp(626): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneTitle.cpp(632): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneTitle.cpp(638): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneTitle.cpp(673): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneTitle.cpp(675): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_SceneEnding.cpp
+     1>..\Source\Class_SceneEnding.cpp(82): warning C4316: 'O3D::C3D_OBJECT_CAMERA' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneEnding.cpp(87): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_SceneEnding.cpp(92): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_SceneGameOver.cpp
+     1>..\Source\Class_SceneGameOver.cpp(69): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         GameCommon.cpp
+         Class_GameMap.cpp
+     1>..\Source\Class_GameMap.cpp(209): warning C4316: 'O3D::CMESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_GameMap.cpp(216): warning C4316: 'O3D::CSKIN_MESH' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_GameMap.cpp(223): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_GameMap.cpp(231): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_GameMap.cpp(239): warning C4316: 'O3D::CSHADOW_OBJECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_GameMap.cpp(246): warning C4316: 'O3D::CSHADOW_OBJECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_GameMap.cpp(253): warning C4316: 'O3D::CSHADOW_OBJECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_GameMap.cpp(260): warning C4316: 'O3D::CSHADOW_OBJECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_ShadowObject.cpp
+         Class_Comment.cpp
+     1>..\Source\Class_Comment.cpp(61): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_Comment.cpp(63): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_KageTokiAdventCharacter.cpp
+         Class_AdventEnemyManager.cpp
+     1>..\Source\Class_AdventEnemyManager.cpp(178): warning C4316: 'O3D::CENEMY_SHADOLL' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventEnemyManager.cpp(185): warning C4316: 'O3D::CENEMY_SHADOLL_SWORD' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventEnemyManager.cpp(192): warning C4316: 'O3D::CENEMY_SHADOG' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventEnemyManager.cpp(199): warning C4316: 'O3D::CENEMY_SHADOLL_ARCHERY' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_EnemyBall.cpp
+     1>..\Source\Class_EnemyBall.cpp(52): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_EnemyBall.cpp(54): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_KageTokiAdventEnemy.cpp
+         Class_EnemyShadoll.cpp
+     1>..\Source\Class_EnemyShadoll.cpp(67): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_EnemyShadog.cpp
+     1>..\Source\Class_EnemyShadog.cpp(73): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_EnemyShadollSword.cpp
+     1>..\Source\Class_EnemyShadollSword.cpp(67): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_EnemyShadollArchery.cpp
+     1>..\Source\Class_EnemyShadollArchery.cpp(58): warning C4316: 'O3D::CENEMY_BALL' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_EnemyShadollArchery.cpp(67): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_EnemyShadollArchery.cpp(184): warning C4316: 'O3D::CENEMY_BALL' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_KageTokiAdventBoss.cpp
+         Class_BossClime.cpp
+     1>..\Source\Class_BossClime.cpp(69): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         コードを生成中...
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_bossclime.cpp(36): warning C4793: O3D::CBOSS_CLIME::CBOSS_CLIME': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_kagetokiadventboss.cpp(34): warning C4793: O3D::CKAGETOKI_ADVENT_BOSS::CKAGETOKI_ADVENT_BOSS': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_enemyshadollarchery.cpp(37): warning C4793: O3D::CENEMY_SHADOLL_ARCHERY::CENEMY_SHADOLL_ARCHERY': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_enemyshadollsword.cpp(36): warning C4793: O3D::CENEMY_SHADOLL_SWORD::CENEMY_SHADOLL_SWORD': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_enemyshadog.cpp(36): warning C4793: O3D::CENEMY_SHADOG::CENEMY_SHADOG': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_enemyshadoll.cpp(36): warning C4793: O3D::CENEMY_SHADOLL::CENEMY_SHADOLL': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_kagetokiadventenemy.cpp(37): warning C4793: O3D::CKAGETOKI_ADVENT_ENEMY::CKAGETOKI_ADVENT_ENEMY': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_enemyball.cpp(66): warning C4793: O3D::CENEMY_BALL::CENEMY_BALL': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_enemyball.cpp(33): warning C4793: O3D::CENEMY_BALL::CENEMY_BALL': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_kagetokiadventcharacter.cpp(37): warning C4793: O3D::CKAGETOKI_ADVENT_CHARACTER::CKAGETOKI_ADVENT_CHARACTER': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_comment.cpp(38): warning C4793: O3D::CCOMMENT::CCOMMENT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_shadowobject.cpp(282): warning C4793: O3D::CSHADOW_OBJECT::CSHADOW_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_shadowobject.cpp(996): warning C4793: O3D::CSHADOW_OBJECT::draw': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_shadowobject.cpp(1030): warning C4793: O3D::CSHADOW_OBJECT::draw': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_shadowobject.cpp(1087): warning C4793: O3D::CSHADOW_OBJECT::draw': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_shadowobject.cpp(295): warning C4793: O3D::CSHADOW_OBJECT::CSHADOW_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_shadowobject.cpp(268): warning C4793: O3D::CSHADOW_OBJECT::CSHADOW_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+         コンパイル中...
+         Class_BossExe.cpp
+     1>..\Source\Class_BossExe.cpp(75): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_BossYamakage.cpp
+     1>..\Source\Class_BossYamakage.cpp(62): warning C4316: 'O3D::CYAMAKAGE_WEAPON' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_BossYamakage.cpp(64): warning C4316: 'O3D::CYAMAKAGE_WEAPON' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_BossYamakage.cpp(66): warning C4316: 'O3D::CYAMAKAGE_WEAPON' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_BossYamakage.cpp(68): warning C4316: 'O3D::CYAMAKAGE_WEAPON' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_BossYamakage.cpp(84): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_YamakageWeapon.cpp
+     1>..\Source\Class_YamakageWeapon.cpp(42): warning C4316: 'O3D::CENEMY_BALL' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_YamakageWeapon.cpp(49): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_YamakageWeapon.cpp(182): warning C4316: 'O3D::CENEMY_BALL' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_BossFeather.cpp
+     1>..\Source\Class_BossFeather.cpp(71): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_BossTima.cpp
+     1>..\Source\Class_BossTima.cpp(69): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_AdventPlayer.cpp
+     1>..\Source\Class_AdventPlayer.cpp(32): warning C4316: 'O3D::CADVENT_KAGEO' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventPlayer.cpp(33): warning C4316: 'O3D::CADVENT_KAGEMI' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventPlayer.cpp(50): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventPlayer.cpp(53): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventPlayer.cpp(56): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventPlayer.cpp(59): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventPlayer.cpp(62): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventPlayer.cpp(65): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventPlayer.cpp(68): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventPlayer.cpp(71): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventPlayer.cpp(74): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventPlayer.cpp(81): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventPlayer.cpp(86): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_AdventKageo.cpp
+     1>..\Source\Class_AdventKageo.cpp(63): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventKageo.cpp(69): warning C4316: 'O3D::CKAGEO_BALL' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventKageo.cpp(75): warning C4316: 'O3D::CKAGEO_BALL' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventKageo.cpp(96): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventKageo.cpp(99): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventKageo.cpp(102): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventKageo.cpp(529): warning C4316: 'O3D::CKAGEO_BALL' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventKageo.cpp(566): warning C4316: 'O3D::CKAGEO_BALL' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_KageoBall.cpp
+     1>..\Source\Class_KageoBall.cpp(88): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_AdventKagemi.cpp
+     1>..\Source\Class_AdventKagemi.cpp(65): warning C4316: 'O3D::CTEXTURE' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventKagemi.cpp(71): warning C4316: 'O3D::CKAGEMI_BALL' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventKagemi.cpp(94): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventKagemi.cpp(97): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventKagemi.cpp(100): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventKagemi.cpp(559): warning C4316: 'O3D::CKAGEMI_BALL' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+     1>..\Source\Class_AdventKagemi.cpp(596): warning C4316: 'O3D::CKAGEMI_BALL' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         Class_KagemiBall.cpp
+     1>..\Source\Class_KagemiBall.cpp(70): warning C4316: 'O3D::C3D_EFFECT' : ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+         UtilityFunction.cpp
+         Version.cpp
+         DirectX.cpp
+         Class_GraphicDevice.cpp
+         Class_Spline.cpp
+         Class_OggVorbis.cpp
+         Class_Sound.cpp
+         Class_Sound_OggVorbis.cpp
+         Class_3DObject.cpp
+         Class_3DObjectCamera.cpp
+         コードを生成中...
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobjectcamera.cpp(39): warning C4793: O3D::C3D_OBJECT_CAMERA::C3D_OBJECT_CAMERA': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobjectcamera.cpp(65): warning C4793: O3D::C3D_OBJECT_CAMERA::C3D_OBJECT_CAMERA': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.cpp(93): warning C4793: O3D::C3D_OBJECT::rayFromInversedMatrix': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_kagemiball.cpp(82): warning C4793: O3D::CKAGEMI_BALL::CKAGEMI_BALL': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_kagemiball.cpp(32): warning C4793: O3D::CKAGEMI_BALL::CKAGEMI_BALL': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_adventkagemi.cpp(37): warning C4793: O3D::CADVENT_KAGEMI::CADVENT_KAGEMI': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_kageoball.cpp(100): warning C4793: O3D::CKAGEO_BALL::CKAGEO_BALL': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_kageoball.cpp(33): warning C4793: O3D::CKAGEO_BALL::CKAGEO_BALL': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_adventkageo.cpp(37): warning C4793: O3D::CADVENT_KAGEO::CADVENT_KAGEO': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_bosstima.cpp(36): warning C4793: O3D::CBOSS_TIMA::CBOSS_TIMA': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_bossfeather.cpp(36): warning C4793: O3D::CBOSS_FEATHER::CBOSS_FEATHER': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_yamakageweapon.cpp(29): warning C4793: O3D::CYAMAKAGE_WEAPON::CYAMAKAGE_WEAPON': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_bossyamakage.cpp(36): warning C4793: O3D::CBOSS_YAMAKAGE::CBOSS_YAMAKAGE': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_bossexe.cpp(36): warning C4793: O3D::CBOSS_EXE::CBOSS_EXE': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+         コンパイル中...
+         Class_3DObjectGroup.cpp
+         Class_Mesh.cpp
+         Class_SkinMesh.cpp
+         Class_Texture.cpp
+         Class_3DEffect.cpp
+         Class_3DEffectCenter.cpp
+         Class_MeshBase.cpp
+         Class_SkinMeshBase.cpp
+     1>..\Source\Class_SkinMeshBase.cpp(247): warning C4297: 'SMB::MY_HIERARCHY::CreateMeshContainer' : 例外をスローしないはずだがそれをする関数。
+                 __declspec(nothrow) または throw() が関数で指定されました。
+         Class_TextureBase.cpp
+         Class_FontBase.cpp
+         Class_EffectBase.cpp
+         Class_DirectInput.cpp
+         MySystem.cpp
+         Class_Direction.cpp
+         Class_ZTextureShader.cpp
+         Class_DepthBufShader.cpp
+         Class_SaveResource.cpp
+         Class_3DMap.cpp
+         Class_MovieCamera.cpp
+         WinMain.cpp
+         コードを生成中...
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_moviecamera.cpp(166): warning C4793: O3D::C3D_MOVIE_CAMERA::C3D_MOVIE_CAMERA': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_moviecamera.cpp(143): warning C4793: O3D::C3D_MOVIE_CAMERA::C3D_MOVIE_CAMERA': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3deffect.cpp(40): warning C4793: O3D::C3D_EFFECT::C3D_EFFECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3deffect.cpp(68): warning C4793: O3D::C3D_EFFECT::C3D_EFFECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3deffect.cpp(96): warning C4793: O3D::C3D_EFFECT::C3D_EFFECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_texture.cpp(39): warning C4793: O3D::CTEXTURE::CTEXTURE': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_texture.cpp(58): warning C4793: O3D::CTEXTURE::CTEXTURE': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_texture.cpp(72): warning C4793: O3D::CTEXTURE::CTEXTURE': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_skinmesh.cpp(38): warning C4793: O3D::CSKIN_MESH::CSKIN_MESH': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_skinmesh.cpp(53): warning C4793: O3D::CSKIN_MESH::CSKIN_MESH': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_skinmesh.cpp(68): warning C4793: O3D::CSKIN_MESH::CSKIN_MESH': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_skinmesh.cpp(130): warning C4793: O3D::CSKIN_MESH::draw': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_mesh.cpp(60): warning C4793: O3D::CMESH::CMESH': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_mesh.cpp(75): warning C4793: O3D::CMESH::CMESH': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_mesh.cpp(89): warning C4793: O3D::CMESH::CMESH': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_mesh.cpp(655): warning C4793: O3D::CMESH::draw': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_mesh.cpp(683): warning C4793: O3D::CMESH::draw': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_mesh.cpp(718): warning C4793: O3D::CMESH::draw': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+     1>c:\users\uejun\desktop\kagetokigirlsln\source\class_3dobject.h(195): warning C4793: O3D::C3D_OBJECT::C3D_OBJECT': ネイティブ関数としてコンパイルされました:
+         	整列データ型はマネージ コードでサポートされていません
+         コンパイル中...
+         Class_WindowManager.cpp
+         コードを生成中...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Ox /Ob2 /Oi /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\uejun\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Release\Project_Games.res" Project_Games.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\uejun\Desktop\KageTokiGIRLSln\Release\Project_Games.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (August 2009)\Lib\x86" /ALLOWBIND:NO d3dxof.lib dxguid.lib d3d9.lib d3dx9d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\uejun\Desktop\KageTokiGIRLSln\Release\Project_Games.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Release\Project_Games.res
+         Release\Class_GameApplication.obj
+         Release\Class_Scene.obj
+         Release\Class_SceneStage1.obj
+         Release\Class_SceneMovie2.obj
+         Release\Class_SceneStage2.obj
+         Release\Class_SceneMovie3.obj
+         Release\Class_SceneStage3.obj
+         Release\Class_SceneBoss1.obj
+         Release\Class_SceneMovie1.obj
+         Release\Class_SceneMovie4.obj
+         Release\Class_SceneStage4.obj
+         Release\Class_SceneMovie5.obj
+         Release\Class_SceneStage5.obj
+         Release\Class_SceneMovie6.obj
+         Release\Class_SceneBoss2.obj
+         Release\Class_SceneStage6.obj
+         Release\Class_SceneMovie7.obj
+         Release\Class_SceneStage7.obj
+         Release\Class_SceneMovie8.obj
+         Release\Class_SceneStage8.obj
+         Release\Class_SceneMovie9.obj
+         Release\Class_SceneStage9.obj
+         Release\Class_SceneBoss3.obj
+         Release\Class_SceneMovie10.obj
+         Release\Class_SceneStage10.obj
+         Release\Class_SceneBoss4.obj
+         Release\Class_SceneMovie11.obj
+         Release\Class_SceneBoss5.obj
+         Release\Class_SceneMovie12.obj
+         Release\Class_SceneAdventureGame.obj
+         Release\Class_SceneAdventureGameData.obj
+         Release\Class_BackSky.obj
+         Release\Class_SceneAdventureGameClear.obj
+         Release\Class_SceneAdventureGameContinue.obj
+         Release\Class_SceneAdventureGameEvent.obj
+         Release\Class_SceneAdventureGamePlay.obj
+         Release\Class_SceneAdventureGameQuit.obj
+         Release\Class_SceneAdventureGameReset.obj
+         Release\Class_SceneAdventureGameStageChange.obj
+         Release\Class_SceneAdventureGameStageOut.obj
+         Release\Class_SceneMovieBase.obj
+         Release\Class_SceneLogo.obj
+         Release\Class_SceneDemo.obj
+         Release\Class_SceneTitle.obj
+         Release\Class_SceneEnding.obj
+         Release\Class_SceneGameOver.obj
+         Release\GameCommon.obj
+         Release\Class_GameMap.obj
+         Release\Class_ShadowObject.obj
+         Release\Class_Comment.obj
+         Release\Class_KageTokiAdventCharacter.obj
+         Release\Class_AdventEnemyManager.obj
+         Release\Class_EnemyBall.obj
+         Release\Class_KageTokiAdventEnemy.obj
+         Release\Class_EnemyShadoll.obj
+         Release\Class_EnemyShadog.obj
+         Release\Class_EnemyShadollSword.obj
+         Release\Class_EnemyShadollArchery.obj
+         Release\Class_KageTokiAdventBoss.obj
+         Release\Class_BossClime.obj
+         Release\Class_BossExe.obj
+         Release\Class_BossYamakage.obj
+         Release\Class_YamakageWeapon.obj
+         Release\Class_BossFeather.obj
+         Release\Class_BossTima.obj
+         Release\Class_AdventPlayer.obj
+         Release\Class_AdventKageo.obj
+         Release\Class_KageoBall.obj
+         Release\Class_AdventKagemi.obj
+         Release\Class_KagemiBall.obj
+         Release\UtilityFunction.obj
+         Release\Version.obj
+         Release\DirectX.obj
+         Release\Class_GraphicDevice.obj
+         Release\Class_Spline.obj
+         Release\Class_OggVorbis.obj
+         Release\Class_Sound.obj
+         Release\Class_Sound_OggVorbis.obj
+         Release\Class_3DObject.obj
+         Release\Class_3DObjectCamera.obj
+         Release\Class_3DObjectGroup.obj
+         Release\Class_Mesh.obj
+         Release\Class_SkinMesh.obj
+         Release\Class_Texture.obj
+         Release\Class_3DEffect.obj
+         Release\Class_3DEffectCenter.obj
+         Release\Class_MeshBase.obj
+         Release\Class_SkinMeshBase.obj
+         Release\Class_TextureBase.obj
+         Release\Class_FontBase.obj
+         Release\Class_EffectBase.obj
+         Release\Class_DirectInput.obj
+         Release\MySystem.obj
+         Release\Class_Direction.obj
+         Release\Class_ZTextureShader.obj
+         Release\Class_DepthBufShader.obj
+         Release\Class_SaveResource.obj
+         Release\Class_3DMap.obj
+         Release\Class_MovieCamera.obj
+         Release\WinMain.obj
+         Release\Class_WindowManager.obj
+         Release\Precompiler.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         LINK : /LTCG が指定されましたが、コードの生成は必要ありません。リンク コマンド ラインから /LTCG を削除し、リンカーの性能を改善してください。
+         Project_Games.vcxproj -> C:\Users\uejun\Desktop\KageTokiGIRLSln\Release\Project_Games.exe
+     1>プロジェクト "C:\Users\uejun\Desktop\KageTokiGIRLSln\Project_Games\Project_Games.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:22.40

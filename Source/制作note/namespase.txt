@@ -1,0 +1,17 @@
+
+/**** 名前空間メモ ****/
+
+using namespace	O3D;							//!< 3Dオブジェクト
+using namespace GD;								//!< グラフィックデバイス
+using namespace GAPP;							//!< ゲームアプリケーション
+using namespace DI;								//!< 直接入力
+using namespace	SHA;							//!< シェーダ
+using namespace UT;								//!< 共有関数
+
+
+#define DSBPLAY_LOOPING             0x00000001
+#define DSBPLAY_LOCHARDWARE         0x00000002
+#define DSBPLAY_LOCSOFTWARE         0x00000004
+#define DSBPLAY_TERMINATEBY_TIME    0x00000008
+#define DSBPLAY_TERMINATEBY_DISTANCE    0x000000010
+#define DSBPLAY_TERMINATEBY_PRIORITY    0x000000020

@@ -1,0 +1,15 @@
+EXECUTE_	50,
+
+OBJ_CHAN	PLAYER__	CHANGEKO
+EXECUTE_	30,
+
+TALK____	 500.0, 250.0, 2, 0, 2,		S_NONE
+…お前ら…強い………				0, 0, 150, 255,
+…畜生…							0, 0, 150, 255,
+TALK_STA
+
+TALK____	 500.0, 250.0, 1, 0, 1,		S_NONE
+…ぐぁぁあぁぁ！！！				0, 0, 150, 255,
+TALK_STA
+
+EV_QUIT_

@@ -1,0 +1,24 @@
+■更新日時:08/09/09
+
+□libogg-1.1.3
+	ogg.h
+	os_types.h
+	ogg.lib
+	ogg_static.lib
+□libvorbis-1.2.0
+	codec.h
+	vorbisenc.h
+	vorbisfile.h
+	vorbis.lib
+	vorbis_static.lib
+	vorbisenc.lib
+	vorbisenc_static.lib
+	vorbisfile.lib
+	vorbisfile_static.lib
+
+■ビルドの注意点
+ランタイムライブラリの設定を行うこと
+マルチスレッド(/MT)			:使用不可
+マルチスレッド デバッグ(/MTd)		:使用可
+マルチスレッド DLL(/MD)			:使用可
+マルチスレッド デバッグ DLL(/MDd)	:使用可

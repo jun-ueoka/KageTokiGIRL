@@ -1,0 +1,33 @@
+
+/**** 参照メモ ****/
+
+「game」
+#include	"Class_GameApplication.h"		//!< ゲームアプリケーション
+#include	"GameCommon.h"					//!< ゲームコモン
+#include	"Class_SceneAdventureGame.h"				//!< シーン「ゲーム」
+#include	"Class_SceneMain.h"				//!< シーン「メイン」
+#include	"Class_Scene.h"					//!< シーン
+#include	"Class_GameMap.h"				//!< ゲームマップ
+
+「library」
+#include	"DirectInput.h"					//!< 直接入力
+#include	"Class_3DObjectCamera.h"		//!< 3Dオブジェクトカメラ
+#include	"Class_3DObjectGroup.h"			//!< 3Dオブジェクトグループ
+#include	"Class_Mesh.h"					//!< 3Dオブジェクトメッシュ
+#include	"Class_SkinMesh.h"				//!< 3Dオブジェクトスキンメッシュ
+#include	"Class_Texture.h"				//!< 3Dオブジェクトテクスチャ
+#include	"Class_3DObject.h"				//!< 3Dオブジェクト
+#include	"Class_3DObjectController.h"	//!< 3Dオブジェクトコントローラ
+#include	"Class_3DCharacterController.h"	//!< 3Dキャラクターコントローラ
+#include	"Class_PixelShader.h"			//!< ピクセルシェーダ
+#include	"Class_GraphicDevice.h"			//!< グラフィックデバイス
+#include	"Class_Script.h"				//!< スクリプト(基礎版)
+
+「library_derivation」
+#include	"Class_3DMap.h"					//!< 3Dオブジェクトマップ
+
+「utility」
+#include	"UtilityFunction.h"				//!< 共有関数
+
+「window」
+#include	"Class_WindowManager.h"			//!< ウィンドウマネージャ
